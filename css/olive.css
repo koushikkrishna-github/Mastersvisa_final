@@ -3,9 +3,9 @@
 
 
 /*
-  Template Name: ImmiEx - Immigration and Visa Consulting Website Template
+  Template Name: Masters Visa - Immigration and Visa Consulting Website Template
   Theme URL: https://themeforest.net/user/Jthemes
-  Description: ImmiEx - Immigration and Visa Consulting Website Template
+  Description: Masters Visa - Immigration and Visa Consulting Website Template
   Author: Jthemes
   Author URL: https://themeforest.net/user/Jthemes
   Version: 1.0.0
@@ -2047,25 +2047,25 @@ p.header-widget-phone {
 }
 
 #hero-3 {
-  background-image: url(../images/hero-3.jpg);
+  background-image: url(../images/hero-1.jpg);
   padding-top: 110px;
   padding-bottom: 50px;
 }
 
 #hero-5 {
-  background-image: url(../images/hero-5.jpg);
+  background-image: url(../images/hero-3.jpg);
   padding-top: 120px;
   padding-bottom: 110px;
 }
 
 #hero-6 {
-  background-image: url(../images/hero-6.jpg);
+  background-image: url(../images/hero-3.jpg);
   padding-top: 140px;
   padding-bottom: 170px;
 }
 
 .hero-7-txt {
-  background-image: url(../images/hero-7.jpg);
+  background-image: url(../images/hero-3.jpg);
   background-position: center center;
 }
 
@@ -2075,7 +2075,7 @@ p.header-widget-phone {
 }
 
 .hero-9-txt {
-  background-image: url(../images/hero-9.jpg);
+  background-image: url(../images/hero-3.jpg);
   background-position: center center;
 }
 
@@ -2546,6 +2546,8 @@ p.header-widget-phone {
   width: 100%;
   height: 52px;
   margin-top: 0;
+
+
 }
 
 .hero-register-form .btn {
