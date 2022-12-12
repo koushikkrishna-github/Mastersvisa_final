@@ -1,10 +1,10 @@
 // JavaScript Document
-$(document).ready(function() {
+$(document).ready(function () {
 
     "use strict";
 
-    $(".request-form").submit(function(e) {
-        e.preventDefault();        
+    $(".request-form").submit(function (e) {
+        e.preventDefault();
         var name = $(".name");
         var email = $(".email");
         var phone = $(".phone");
@@ -57,18 +57,18 @@ $(document).ready(function() {
             cache: false,
             success: function (d) {
                 $(".form-control").removeClass("success");
-                    if(d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
-                        $('.loading').fadeIn('slow').html('<font color="#00596e">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
-                         else
-                        $('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
-                                }
+                if (d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
+                    $('.loading').fadeIn('slow').html('<font color="#00596e">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
+                else
+                    $('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
+            }
         });
         return false;
     });
-    $("#reset").on('click', function() {
+    $("#reset").on('click', function () {
         $(".form-control").removeClass("success").removeClass("error");
     });
-    
+
 })
 
 

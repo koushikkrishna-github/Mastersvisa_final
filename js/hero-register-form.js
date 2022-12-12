@@ -8,6 +8,7 @@ $(document).ready(function() {
         var name = $(".name");
         var email = $(".email");
         var visa = $(".visa");
+        var country = $(".country");
         var flag = false;
         if (name.val() == "") {
             name.closest(".form-control").addClass("error");
@@ -23,7 +24,15 @@ $(document).ready(function() {
             return false;
         } else {
             email.closest(".form-control").removeClass("error").addClass("success");
-        } if (visa.val() == "") {
+        }  if (country.val() == "") {
+            country.closest(".form-control").addClass("error");
+            country.focus();
+            flag = false;
+            return false;
+        } else {
+            country.closest(".form-control").removeClass("error").addClass("success");
+        }
+        if (visa.val() == "") {
             visa.closest(".form-control").addClass("error");
             visa.focus();
             flag = false;
@@ -32,7 +41,7 @@ $(document).ready(function() {
             visa.closest(".form-control").removeClass("error").addClass("success");
             flag = true;
         }
-        var dataString = "name=" + name.val() + "&email=" + email.val() + "&visa=" + visa.val();
+        var dataString = "name=" + name.val() + "&email=" + email.val() + "&visa=" + visa.val() + "&country=" + country.val();
         $(".loading").fadeIn("slow").html("Loading...");
         $.ajax({
             type: "POST",
@@ -40,6 +49,7 @@ $(document).ready(function() {
             url: "php/heroRegisterForm.php",
             cache: false,
             success: function (d) {
+                console.log(d)
                 $(".form-control").removeClass("success");
                     if(d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
                         $('.loading').fadeIn('slow').html('<font color="#18a0ae">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
