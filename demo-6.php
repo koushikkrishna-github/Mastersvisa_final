@@ -140,7 +140,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.php">Home </a>
+								<li><a href="index">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,21 +159,21 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.php">About Us Page</a></li>
-									                    <li><a href="courses-list.php">Courses List Page</a></li>
-									                    <li><a href="course-details.php">Course Details Page</a></li>
-									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.php">FAQs Page</a></li>                   
+									                    <li><a href="about">About Us Page</a></li>
+									                    <li><a href="courses-list">Courses List Page</a></li>
+									                    <li><a href="course-details">Course Details Page</a></li>
+									                    <li><a href="partners">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.php">Countries List Page</a></li>
-									                    <li><a href="country-details.php">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.php">Visa Details Page</a></li>
+									                    <li><a href="country-details">Countries List Page</a></li>
+									                    <li><a href="country-details">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2">Visa List Page #2</a></li>
+									                    <li><a href="visa-details">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
@@ -181,9 +181,9 @@
 									                    <li class="title">Auxiliary Pages:</li>
 									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
 									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
+									                    <li><a href="contacts-1">Contact Style #1</a></li>
+									                    <li><a href="contacts-2">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -530,12 +530,12 @@
 
 										<!-- List -->
 			 							<ul class="abox-list">
-					 						<li><a href="country-details.php">Canada</a></li>
-											<li><a href="country-details.php">Australia</a></li>
-											<li><a href="country-details.php">United Kingdom</a></li>
-											<li><a href="country-details.php">USA</a></li>
-											<li><a href="country-details.php">New Zealand</a></li>	
-											<li><a href="country-details.php">South Korea</a></li>
+					 						<li><a href="country-details">Canada</a></li>
+											<li><a href="country-details">Australia</a></li>
+											<li><a href="country-details">United Kingdom</a></li>
+											<li><a href="country-details">USA</a></li>
+											<li><a href="country-details">New Zealand</a></li>	
+											<li><a href="country-details">South Korea</a></li>
 											<li class="more-info-link darkblue-color">
 												<a href="country-list.php">View All <i class="fas fa-caret-right"></i></a>
 											</li>				
@@ -552,14 +552,14 @@
 
 										<!-- List -->
 			 							<ul class="abox-list">
-					 						<li><a href="visa-details.php">Student Visa</a></li>
-											<li><a href="visa-details.php">Skilled Work Visa</a></li>
-											<li><a href="visa-details.php">Business visa</a></li>
-											<li><a href="visa-details.php">Spouse/Family Visa</a></li>
-											<li><a href="visa-details.php">Tourist & Visitor Visa</a></li>	
-											<li><a href="visa-details.php">Immigration Consult</a></li>
+					 						<li><a href="visa-details">Student Visa</a></li>
+											<li><a href="visa-details">Skilled Work Visa</a></li>
+											<li><a href="visa-details">Business visa</a></li>
+											<li><a href="visa-details">Spouse/Family Visa</a></li>
+											<li><a href="visa-details">Tourist & Visitor Visa</a></li>	
+											<li><a href="visa-details">Immigration Consult</a></li>
 											<li class="more-info-link darkblue-color">
-												<a href="visa-list-1.php">View All <i class="fas fa-caret-right"></i></a>
+												<a href="visa-list-1">View All <i class="fas fa-caret-right"></i></a>
 											</li>							
 			 							</ul>
 			 							
@@ -613,7 +613,7 @@
 						<!-- SERVICE BOX #1 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="visa-details.php">
+								<a href="visa-details">
 								
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-431-bank"></span></div>
@@ -632,7 +632,7 @@
 						<!-- SERVICE BOX #2 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="visa-details.php">
+								<a href="visa-details">
 								
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-023-wallet"></span></div>
@@ -651,7 +651,7 @@
 						<!-- SERVICE BOX #3 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="visa-details.php">
+								<a href="visa-details">
 								
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-004-wrench"></span></div>
@@ -670,7 +670,7 @@
 						<!-- SERVICE BOX #4 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="visa-details.php">
+								<a href="visa-details">
 
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-032-user-3"></span></div>
@@ -689,7 +689,7 @@
 						<!-- SERVICE BOX #5 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="visa-details.php">
+								<a href="visa-details">
 								
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-067-suitcase-1"></span></div>
@@ -708,7 +708,7 @@
 						<!-- SERVICE BOX #6 -->
 						<div class="col-md-6 col-lg-4">
 							<div class="sbox-4 icon-sm">
-								<a href="courses-list.php">
+								<a href="courses-list">
 
 									<!-- Icon -->
 									<div class="sbox-4-icon grey-color"><span class="flaticon-318-planet-earth"></span></div>
@@ -862,7 +862,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -885,7 +885,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -908,7 +908,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -931,7 +931,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -954,7 +954,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -977,7 +977,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -1000,7 +1000,7 @@
 						<!-- COUNTRY BOX -->
 						<div class="col-sm-6 col-lg-3">
 							<div class="cbox-3">
-								<a href="country-details.php">
+								<a href="country-details">
 
 									<!-- Image -->
 									<div class="hover-overlay"> 
@@ -1835,7 +1835,7 @@
 					<!-- MORE QUESTIONS BUTTON -->		
 					<div class="row">
 						<div class="col-md-12 text-center more-questions">
-							<h5 class="h5-md">Still have a question? <a href="faqs.php" class="darkblue-color">Ask your question here</a></h5>
+							<h5 class="h5-md">Still have a question? <a href="faqs" class="darkblue-color">Ask your question here</a></h5>
 						</div>
 					</div>
 
@@ -2076,8 +2076,8 @@
 								<h5 class="h5-md">Contact Details</h5>
 
 								<!-- Address -->
-								<p class="p-sm">121 King Street, Melbourne,</p> 
-								<p class="p-sm">Victoria 3000 Australia</p>
+								<p class="p-sm">4th lane, Opp LVR club, Lakshmipuram,Guntur</p> 
+								<p class="p-sm">Andhrapradesh, 522007</p>
 
 								<!-- Phone -->
 								<p class="p-sm mt-20">Phone: +12 9 8765 4321</p>
@@ -2125,13 +2125,13 @@
 
 								<!-- Footer Links -->
 								<ul class="foo-links clearfix">
-									<li><a href="visa-details.php">Visitor Visas</a></li>
-									<li><a href="visa-details.php">Permanent Residence Visas</a></li>
-									<li><a href="visa-details.php">Business Visas</a></li>
-									<li><a href="visa-details.php">Working Holiday Visas</a></li>	
-									<li><a href="visa-details.php">Studying & Training Visas</a></li>
-									<li><a href="visa-details.php">Skilled Work Visas</a></li>
-									<li><a href="visa-details.php">Family & Partner Visas</a></li>							
+									<li><a href="visa-details">Visitor Visas</a></li>
+									<li><a href="visa-details">Permanent Residence Visas</a></li>
+									<li><a href="visa-details">Business Visas</a></li>
+									<li><a href="visa-details">Working Holiday Visas</a></li>	
+									<li><a href="visa-details">Studying & Training Visas</a></li>
+									<li><a href="visa-details">Skilled Work Visas</a></li>
+									<li><a href="visa-details">Family & Partner Visas</a></li>							
 								</ul>
 
 							</div>

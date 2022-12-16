@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -8,9 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="author" content="mastersVisa" />
-	<meta name="description" content="Masters Visa - Immigration and Visa Consulting Website" />
-	<meta name="keywords"
-		content="education visa, work visa, job placement support, loans, Business, Coaching, Consulting, Creative, Immigration, Visa">
+	<meta name="description" content="Masters Visa - Immigration and Visa Consulting Website" />	<meta name="keywords" content="education visa, work visa, job placement support, loans, Business, Coaching, Consulting, Creative, Immigration, Visa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<!-- SITE TITLE -->
@@ -33,9 +30,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- FONT ICONS -->
-	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet"
-		crossorigin="anonymous">
+	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet" crossorigin="anonymous">
 	<link href="css/flaticon.css" rel="stylesheet">
 
 	<!-- PLUGINS STYLESHEET -->
@@ -96,8 +91,7 @@
 				<!-- MOBILE HEADER -->
 				<div class="wsmobileheader clearfix">
 					<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-					<span class="smllogo"><img src="images/brand/logo.png" width="200" height="50"
-							alt="mobile-logo" /></span>
+					<span class="smllogo"><img src="images/brand/logo.png" width="200" height="50" alt="mobile-logo" /></span>
 					<a href="tel:+91 9133855571" class="callusbtn"><i class="fas fa-phone"></i></a>
 				</div>
 
@@ -110,7 +104,7 @@
 						<div class="headertopleft">
 							<div class="header-info clearfix">
 								<span class="txt-400"><i class="fas fa-map-marker-alt"></i>4th lane, Opp LVR club,
-									Lakshmipuram, Guntur</span>
+									Lakshmipuram, Guntur , 522007</span>
 							</div>
 						</div>
 
@@ -119,8 +113,7 @@
 							<a href="tel:+91 9133855571" class="callusbtn txt-400"><i class="fas fa-phone"></i>+91
 								9133855571,</a>
 							<a href="tel:+91 9133855571" class="callusbtn b-right txt-400">&#8194;+44 7789430575</a>
-							<a href="mailto:info@mastersvisa.com" class="txt-400"><i
-									class="far fa-envelope-open"></i>info@mastersvisa.com</a>
+							<a href="mailto:info@mastersvisa.com" class="txt-400"><i class="far fa-envelope-open"></i>info@mastersvisa.com</a>
 						</div>
 
 					</div>
@@ -134,10 +127,8 @@
 
 						<!-- LOGO IMAGE -->
 						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-						<div class="desktoplogo"><a href="#" class="logo-black"><img src="images/brand/logo.png"
-									width="250" height="60" alt="header-logo"></a></div>
-						<div class="desktoplogo"><a href="#" class="logo-white"><img src="images/brand/logo.png"
-									width="250" height="60" alt="header-logo"></a></div>
+						<div class="desktoplogo"><a href="#" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+						<div class="desktoplogo"><a href="#" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 						<!-- MAIN MENU -->
@@ -146,7 +137,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.php">Home </a>
+								<li><a href="index">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -166,21 +157,21 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about.php">About Us Page</a></li>
-													<li><a href="courses-list.php">Courses List Page</a></li>
-													<li><a href="course-details.php">Course Details Page</a></li>
-													<li><a href="partners.php">Partners & Colleges</a></li>
-													<li><a href="faqs.php">FAQs Page</a></li>
+													<li><a href="about">About Us Page</a></li>
+													<li><a href="courses-list">Courses List Page</a></li>
+													<li><a href="course-details">Course Details Page</a></li>
+													<li><a href="partners">Partners & Colleges</a></li>
+													<li><a href="faqs">FAQs Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details.php">Countries List Page</a></li>
-													<li><a href="country-details.php">Country Details Page</a></li>
-													<li><a href="visa-list-1.php">Visa List Page #1</a></li>
-													<li><a href="visa-list-2.php">Visa List Page #2</a></li>
-													<li><a href="visa-details.php">Visa Details Page</a></li>
+													<li><a href="country-details">Countries List Page</a></li>
+													<li><a href="country-details">Country Details Page</a></li>
+													<li><a href="visa-list-1">Visa List Page #1</a></li>
+													<li><a href="visa-list-2">Visa List Page #2</a></li>
+													<li><a href="visa-details">Visa Details Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
@@ -188,9 +179,9 @@
 													<li class="title">Auxiliary Pages:</li>
 													<li><a href="blog-listing.php">Blog Listing Page</a></li>
 													<li><a href="single-post.php">Single Blog Post</a></li>
-													<li><a href="contacts-1.php">Contact Style #1</a></li>
-													<li><a href="contacts-2.php">Contact Style #2</a></li>
-													<li><a href="contacts-3.php">Contact Style #3</a></li>
+													<li><a href="contacts-1">Contact Style #1</a></li>
+													<li><a href="contacts-2">Contact Style #2</a></li>
+													<li><a href="contacts-3">Contact Style #3</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -232,8 +223,7 @@
 													<h3 class="title">Featured News:</h3>
 
 													<!-- Image -->
-													<div class="fluid-width-video-wrapper mb-15"><img
-															src="images/blog/featured-news.jpg" alt="featured-news" />
+													<div class="fluid-width-video-wrapper mb-15"><img src="images/blog/featured-news.jpg" alt="featured-news" />
 													</div>
 
 													<!-- Text -->
@@ -261,8 +251,7 @@
 
 								<!-- LAST NAVIGATION LINK -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts-1.php"
-										class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+									<a href="contacts-1" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								</li>
 
 
@@ -326,22 +315,19 @@
 							<!-- Register Form Input -->
 							<div id="input-name" class="col-lg-3">
 								<p>Name *</p>
-								<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*"
-									required>
+								<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required>
 							</div>
 
 							<!-- Register Form Input -->
 							<div id="input-email" class="col-lg-3">
 								<p>Email *</p>
-								<input type="text" name="email" class="form-control email"
-									placeholder="Enter Your Email*" required>
+								<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required>
 							</div>
 
 							<!-- Select country -->
 							<div id="input-country" class="col-lg-3 input-country">
 								<p>Select country *</p>
-								<select id="inlineFormCustomSelect2" name="country" class="custom-select country"
-									required>
+								<select id="inlineFormCustomSelect2" name="country" class="custom-select country" required>
 									<option value="">Select country</option>
 									<option>United States</option>
 									<option>United Kingdom</option>
@@ -421,7 +407,7 @@
 							</p>
 
 							<!-- Button -->
-							<a href="about.php" class="btn btn-md btn-tra-grey black-hover btn-arrow">
+							<a href="about" class="btn btn-md btn-tra-grey black-hover btn-arrow">
 								<span>Discover More <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -490,7 +476,7 @@
 							<p class="p-sm">Unlock your education and career potential with an education visa.</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -506,7 +492,7 @@
 							</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -521,7 +507,7 @@
 							<p class="p-sm">Expert guidance for those seeking skilled immigration opportunities.</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -536,7 +522,7 @@
 							<p class="p-sm">Bring your loved ones along on your journey with a spouse/family visa.</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -552,7 +538,7 @@
 							</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -568,7 +554,7 @@
 								language courses</p>
 
 							<!--Link -->
-							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -610,7 +596,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -631,7 +617,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -653,7 +639,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -675,13 +661,12 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
 
-									<img class="img-fluid" src="images/flags/united-kingdom.png"
-										alt="country-preview" />
+									<img class="img-fluid" src="images/flags/united-kingdom.png" alt="country-preview" />
 									<div class="item-overlay"></div>
 
 									<!-- Title -->
@@ -698,7 +683,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -722,7 +707,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -743,7 +728,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.php">
+							<a href="country-details">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -788,8 +773,7 @@
 							</p>
 
 							<!-- Button  -->
-							<a href="mailto:info@mastersvisa.com"
-								class="btn btn-md btn-tra-white primary-hover btn-arrow">
+							<a href="mailto:info@mastersvisa.com" class="btn btn-md btn-tra-white primary-hover btn-arrow">
 								<span>Get Consultation <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -1146,7 +1130,7 @@
 							</p>
 
 							<!-- Button -->
-							<a href="contacts-1.php" class="btn btn-md btn-tra-white primary-hover btn-arrow">
+							<a href="contacts-1" class="btn btn-md btn-tra-white primary-hover btn-arrow">
 								<span>Discover More <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -1196,8 +1180,7 @@
 								<!-- Question -->
 								<div class="card-header" role="tab" id="headingOne">
 									<h5 class="h5-sm">
-										<a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true"
-											aria-controls="collapseOne">
+										<a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
 											<span>1.</span> How long does my passport have to be valid in order to apply
 											for a U.S. visa?
 										</a>
@@ -1205,8 +1188,7 @@
 								</div>
 
 								<!-- Answer -->
-								<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"
-									data-parent="#accordion">
+								<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
 									<div class="card-body">
 
 										<!-- INFO BOX #1 -->
@@ -1242,16 +1224,14 @@
 								<!-- Question -->
 								<div class="card-header" role="tab" id="headingTwo">
 									<h5 class="h5-sm">
-										<a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button"
-											aria-expanded="false" aria-controls="collapseTwo">
+										<a class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
 											<span>2.</span> What is an I-20 and how do I get it?
 										</a>
 									</h5>
 								</div>
 
 								<!-- Answer -->
-								<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
-									data-parent="#accordion">
+								<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
 
 										<p>The Form I-20 is an official U.S. Government form, issued by a certified
@@ -1273,16 +1253,14 @@
 								<!-- Question -->
 								<div class="card-header" role="tab" id="headingThree">
 									<h5 class="h5-sm">
-										<a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button"
-											aria-expanded="false" aria-controls="collapseThree">
+										<a class="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
 											<span>3.</span> How can I update or cancel my personal information?
 										</a>
 									</h5>
 								</div>
 
 								<!-- Answer -->
-								<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
-									data-parent="#accordion">
+								<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
 									<div class="card-body">
 
 										<!-- Text -->
@@ -1327,16 +1305,14 @@
 								<!-- Question -->
 								<div class="card-header" role="tab" id="headingFour">
 									<h5 class="h5-sm">
-										<a class="collapsed" data-toggle="collapse" href="#collapseFour" role="button"
-											aria-expanded="false" aria-controls="collapseFour">
+										<a class="collapsed" data-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
 											<span>4.</span> Does your immigration firm offer a money-back guarantee?
 										</a>
 									</h5>
 								</div>
 
 								<!-- Answer -->
-								<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour"
-									data-parent="#accordion">
+								<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
 									<div class="card-body">
 
 										<!-- Text -->
@@ -1360,16 +1336,14 @@
 								<!-- Question -->
 								<div class="card-header" role="tab" id="headingFive">
 									<h5 class="h5-sm">
-										<a class="collapsed" data-toggle="collapse" href="#collapseFive" role="button"
-											aria-expanded="false" aria-controls="collapseFive">
+										<a class="collapsed" data-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">
 											<span>5.</span> How long does it take to get a travel visa to Singapore?
 										</a>
 									</h5>
 								</div>
 
 								<!-- Answer -->
-								<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive"
-									data-parent="#accordion">
+								<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
 									<div class="card-body">
 
 										<!-- INFO BOX #1 -->
@@ -1408,7 +1382,7 @@
 				<!-- MORE QUESTIONS BUTTON -->
 				<div class="row">
 					<div class="col-md-12 text-center more-questions">
-						<h5 class="h5-md">Still have a question? <a href="faqs.php" class="darkblue-color">Ask your
+						<h5 class="h5-md">Still have a question? <a href="faqs" class="darkblue-color">Ask your
 								question here</a></h5>
 					</div>
 				</div>
@@ -1416,260 +1390,6 @@
 
 			</div> <!-- End container -->
 		</section> <!-- END FAQs-1 -->
-
-
-
-
-		<!-- TESTIMONIALS-1
-			============================================= -->
-		<section id="reviews-1" class="bg-tra-city bg-lightgrey wide-100 reviews-section division">
-			<div class="container">
-
-
-				<!-- SECTION TITLE -->
-				<div class="row">
-					<div class="col-md-12 section-title center">
-
-						<!-- Title -->
-						<h2 class="h2-xs">Our Success Stories...</h2>
-
-						<!-- Text -->
-						<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor
-							feugiat,
-							felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-						</p>
-
-					</div>
-				</div> <!-- END SECTION TITLE -->
-
-
-				<!-- TESTIMONIALS CONTENT -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="owl-carousel owl-theme reviews-holder">
-
-
-							<!-- TESTIMONIAL #1 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-1.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Robert</h5>
-										<span>(UK Business Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>Sagittis congue etiam sapien at velna accumsan suscipit egestas at lobortis magna, a
-									porttitor sodales an aenean mauris tempor aenean cubilia blandit porta justo integer
-									velna vitae auctor integer a congue magna sapien gravida donec ultrice ligula risus
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #2 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-2.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Evelyn W.</h5>
-										<span>(Canada Studients Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>Sapien sem accumsan vitae at purus diam integer congue magna sodales. Magna vitae and
-									aenean
-									mauris tempor augue in cubilia laoreet magna suscipit magna ipsum vitae purus ipsum
-									primis
-									cubilia laoreet and augue ultrice ligula egestas magna suscipit lectus gestas at
-									magna viverra
-									dolor neque gravida
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #3 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-3.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Leslie Serpas</h5>
-										<span>(Singapore PR Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>Etiam sapien gravida and donec sagittis congue. Augue cubilia laoreet at magna
-									suscipit egestas
-									magna an ipsum vitae and purus ipsum primis undo cubilia laoreet augue ultrice
-									ligula and egestas
-									suscipit magna lectus gestas magna as viverra neque est gravida
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #4 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-4.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Dan Hodges</h5>
-										<span>(USA Studients Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>An augue in cubilia laoreet undo magna suscipit egestas magna ipsum egestas vitae
-									purus ipsum
-									primis cubilia laoreet augue ultrice ligula egestas and magna suscipit lectus gestas
-									magna a
-									viverra dolor neque est gravida
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #5 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-5.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Amelie Peterson</h5>
-										<span>(France Working Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>An orci nullam tempor sapien, gravida donec enim ipsum a porta. An augue in cubilia
-									laoreet
-									magna suscipit egestas magna ipsum vitae purus ipsum primis in cubilia laoreet augue
-									ultrice
-									at ligula egestas magna suscipit lectus gestas magna viverra dolor neque est gravida
-									justo
-									integer and velna auctor
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #6 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-6.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Scott Boxer</h5>
-										<span>(Germany Travel Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>An augue cubilia laoreet magna suscipit egestas magna ipsum vitae purus undo ipsum
-									primis
-									in cubilia laoreet augue ultrice ligula egestas magna at suscipit lectus gestas
-									magna viverra
-									dolor neque est gravida. Mauris donec ociis magnis sapien etiam sapien sem sagittis
-								</p>
-
-							</div>
-
-
-							<!-- TESTIMONIAL #7 -->
-							<div class="review-1">
-
-								<!-- Testimonial Author -->
-								<div class="author-data clearfix">
-
-									<!-- Author Avatar -->
-									<div class="testimonial-avatar">
-										<img src="images/review-author-7.jpg" alt="testimonial-avatar">
-									</div>
-
-									<!-- Author Data -->
-									<div class="review-author">
-										<h5 class="h5-sm">Evelyn</h5>
-										<span>(Austrlia PR Visa)</span>
-									</div>
-
-								</div> <!-- End Testimonial Author -->
-
-								<!-- Testimonial Text -->
-								<p>At sagittis congue augue egestas undo magna ipsum vitae purus ipsum primis in cubilia
-									laoreet augue ociis at nullam tempor sapien gravida porta integer at odio velna
-									auctor.
-									An augue in cubilia laoreet magna suscipit egestas magna ipsum vitae purus ipsum
-									primis
-									cubilia laoreet augue ultrice ligula egestas
-								</p>
-
-							</div>
-
-
-						</div>
-					</div>
-				</div> <!-- END TESTIMONIALS CONTENT -->
-
-
-			</div> <!-- End container -->
-		</section> <!-- END TESTIMONIALS-1 -->
-
 
 
 		<!-- CALL TO ACTION-1
@@ -1706,8 +1426,7 @@
 							<br> Call : &nbsp; <a href="tel:+44 7789430575"><span>+44 7789430575</span></p></a>
 
 							<!-- Button  -->
-							<a href="mailto:info@mastersvisa.com"
-								class="btn btn-md btn-primary tra-white-hover btn-arrow">
+							<a href="mailto:info@mastersvisa.com" class="btn btn-md btn-primary tra-white-hover btn-arrow">
 								<span>Get Consultation <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -1808,13 +1527,13 @@
 
 							<!-- Footer Links -->
 							<ul class="foo-links clearfix">
-								<li><a href="visa-details.php">Visitor Visas</a></li>
-								<li><a href="visa-details.php">Permanent Residence Visas</a></li>
-								<li><a href="visa-details.php">Business Visas</a></li>
-								<li><a href="visa-details.php">Working Holiday Visas</a></li>
-								<li><a href="visa-details.php">Studying & Training Visas</a></li>
-								<li><a href="visa-details.php">Skilled Work Visas</a></li>
-								<li><a href="visa-details.php">Family & Partner Visas</a></li>
+								<li><a href="visa-details">Visitor Visas</a></li>
+								<li><a href="visa-details">Permanent Residence Visas</a></li>
+								<li><a href="visa-details">Business Visas</a></li>
+								<li><a href="visa-details">Working Holiday Visas</a></li>
+								<li><a href="visa-details">Studying & Training Visas</a></li>
+								<li><a href="visa-details">Skilled Work Visas</a></li>
+								<li><a href="visa-details">Family & Partner Visas</a></li>
 							</ul>
 
 						</div>

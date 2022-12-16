@@ -139,9 +139,9 @@
 
 						<!-- LOGO IMAGE -->
 						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-						<div class="desktoplogo"><a href="index.php" class="logo-black"><img
+						<div class="desktoplogo"><a href="index" class="logo-black"><img
 									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-						<div class="desktoplogo"><a href="index.php" class="logo-white"><img
+						<div class="desktoplogo"><a href="index" class="logo-white"><img
 									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
@@ -151,7 +151,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.php">Home </a>
+								<li><a href="index">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -171,21 +171,21 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about.php">About Us Page</a></li>
-													<li><a href="courses-list.php">Courses List Page</a></li>
-													<li><a href="course-details.php">Course Details Page</a></li>
-													<li><a href="partners.php">Partners & Colleges</a></li>
-													<li><a href="faqs.php">FAQs Page</a></li>
+													<li><a href="about">About Us Page</a></li>
+													<li><a href="courses-list">Courses List Page</a></li>
+													<li><a href="course-details">Course Details Page</a></li>
+													<li><a href="partners">Partners & Colleges</a></li>
+													<li><a href="faqs">FAQs Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details.php">Countries List Page</a></li>
-													<li><a href="country-details.php">Country Details Page</a></li>
-													<li><a href="visa-list-1.php">Visa List Page #1</a></li>
-													<li><a href="visa-list-2.php">Visa List Page #2</a></li>
-													<li><a href="visa-details.php">Visa Details Page</a></li>
+													<li><a href="country-details">Countries List Page</a></li>
+													<li><a href="country-details">Country Details Page</a></li>
+													<li><a href="visa-list-1">Visa List Page #1</a></li>
+													<li><a href="visa-list-2">Visa List Page #2</a></li>
+													<li><a href="visa-details">Visa Details Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
@@ -193,9 +193,9 @@
 													<li class="title">Auxiliary Pages:</li>
 													<li><a href="blog-listing.php">Blog Listing Page</a></li>
 													<li><a href="single-post.php">Single Blog Post</a></li>
-													<li><a href="contacts-1.php">Contact Style #1</a></li>
-													<li><a href="contacts-2.php">Contact Style #2</a></li>
-													<li><a href="contacts-3.php">Contact Style #3</a></li>
+													<li><a href="contacts-1">Contact Style #1</a></li>
+													<li><a href="contacts-2">Contact Style #2</a></li>
+													<li><a href="contacts-3">Contact Style #3</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -324,7 +324,7 @@
 
 								<!-- LAST NAVIGATION LINK -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts-1.php"
+									<a href="contacts-1"
 										class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								</li>
 
@@ -357,7 +357,7 @@
 						<div class="col">
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb white-color">
-									<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+									<li class="breadcrumb-item"><a href="index">&#91; Home &#93;</a></li>
 									<li class="breadcrumb-item active" aria-current="page">About Masters Visa</li>
 								</ol>
 							</nav>
@@ -484,7 +484,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -500,7 +500,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -516,7 +516,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -532,7 +532,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -548,7 +548,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -564,7 +564,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -580,7 +580,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -596,7 +596,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -612,7 +612,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -663,12 +663,12 @@
 
 										<!-- List -->
 										<ul class="abox-list">
-											<li><a href="country-details.php">Canada</a></li>
-											<li><a href="country-details.php">Australia</a></li>
-											<li><a href="country-details.php">United Kingdom</a></li>
-											<li><a href="country-details.php">USA</a></li>
-											<li><a href="country-details.php">New Zealand</a></li>
-											<li><a href="country-details.php">South Korea</a></li>
+											<li><a href="country-details">Canada</a></li>
+											<li><a href="country-details">Australia</a></li>
+											<li><a href="country-details">United Kingdom</a></li>
+											<li><a href="country-details">USA</a></li>
+											<li><a href="country-details">New Zealand</a></li>
+											<li><a href="country-details">South Korea</a></li>
 											<li class="more-info-link darkblue-color">
 												<a href="country-list.php">View All <i
 														class="fas fa-caret-right"></i></a>
@@ -686,14 +686,14 @@
 
 										<!-- List -->
 										<ul class="abox-list">
-											<li><a href="visa-details.php">Student Visa</a></li>
-											<li><a href="visa-details.php">Skilled Work Visa</a></li>
-											<li><a href="visa-details.php">Business visa</a></li>
-											<li><a href="visa-details.php">Spouse/Family Visa</a></li>
-											<li><a href="visa-details.php">Tourist & Visitor Visa</a></li>
-											<li><a href="visa-details.php">Immigration Consult</a></li>
+											<li><a href="visa-details">Student Visa</a></li>
+											<li><a href="visa-details">Skilled Work Visa</a></li>
+											<li><a href="visa-details">Business visa</a></li>
+											<li><a href="visa-details">Spouse/Family Visa</a></li>
+											<li><a href="visa-details">Tourist & Visitor Visa</a></li>
+											<li><a href="visa-details">Immigration Consult</a></li>
 											<li class="more-info-link darkblue-color">
-												<a href="visa-list-1.php">View All <i
+												<a href="visa-list-1">View All <i
 														class="fas fa-caret-right"></i></a>
 											</li>
 										</ul>
@@ -1016,350 +1016,6 @@
 			</section> <!-- END TABS-2 -->
 
 
-
-
-			<!-- TESTIMONIALS-1
-				============================================= -->
-			<section id="reviews-1" class="bg-tra-city bg-lightgrey wide-100 reviews-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row">
-						<div class="col-md-12 section-title center">
-
-							<!-- Title -->
-							<h2 class="h2-xs">What Our Clients Say</h2>
-
-							<!-- Text -->
-							<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor
-								feugiat,
-								felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-							</p>
-
-						</div>
-					</div> <!-- END SECTION TITLE -->
-
-
-					<!-- TESTIMONIALS CONTENT -->
-					<div class="row">
-						<div class="col-md-12">
-							<div class="owl-carousel owl-theme reviews-holder">
-
-
-								<!-- TESTIMONIAL #1 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-1.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Robert</h5>
-											<span>(UK Business Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>Sagittis congue etiam sapien at velna accumsan suscipit egestas at lobortis
-										magna, a
-										porttitor sodales an aenean mauris tempor aenean cubilia blandit porta justo
-										integer
-										velna vitae auctor integer a congue magna sapien gravida donec ultrice ligula
-										risus
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #2 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-2.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Evelyn W.</h5>
-											<span>(Canada Studients Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>Sapien sem accumsan vitae at purus diam integer congue magna sodales. Magna vitae
-										and aenean
-										mauris tempor augue in cubilia laoreet magna suscipit magna ipsum vitae purus
-										ipsum primis
-										cubilia laoreet and augue ultrice ligula egestas magna suscipit lectus gestas at
-										magna viverra
-										dolor neque gravida
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #3 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-3.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Leslie Serpas</h5>
-											<span>(Singapore PR Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>Etiam sapien gravida and donec sagittis congue. Augue cubilia laoreet at magna
-										suscipit egestas
-										magna an ipsum vitae and purus ipsum primis undo cubilia laoreet augue ultrice
-										ligula and egestas
-										suscipit magna lectus gestas magna as viverra neque est gravida
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #4 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-4.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Dan Hodges</h5>
-											<span>(USA Studients Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>An augue in cubilia laoreet undo magna suscipit egestas magna ipsum egestas vitae
-										purus ipsum
-										primis cubilia laoreet augue ultrice ligula egestas and magna suscipit lectus
-										gestas magna a
-										viverra dolor neque est gravida
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #5 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-5.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Amelie Peterson</h5>
-											<span>(France Working Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>An orci nullam tempor sapien, gravida donec enim ipsum a porta. An augue in
-										cubilia laoreet
-										magna suscipit egestas magna ipsum vitae purus ipsum primis in cubilia laoreet
-										augue ultrice
-										at ligula egestas magna suscipit lectus gestas magna viverra dolor neque est
-										gravida justo
-										integer and velna auctor
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #6 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-6.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Scott Boxer</h5>
-											<span>(Germany Travel Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>An augue cubilia laoreet magna suscipit egestas magna ipsum vitae purus undo
-										ipsum primis
-										in cubilia laoreet augue ultrice ligula egestas magna at suscipit lectus gestas
-										magna viverra
-										dolor neque est gravida. Mauris donec ociis magnis sapien etiam sapien sem
-										sagittis
-									</p>
-
-								</div>
-
-
-								<!-- TESTIMONIAL #7 -->
-								<div class="review-1">
-
-									<!-- Testimonial Author -->
-									<div class="author-data clearfix">
-
-										<!-- Author Avatar -->
-										<div class="testimonial-avatar">
-											<img src="images/review-author-7.jpg" alt="testimonial-avatar">
-										</div>
-
-										<!-- Author Data -->
-										<div class="review-author">
-											<h5 class="h5-sm">Evelyn</h5>
-											<span>(Austrlia PR Visa)</span>
-										</div>
-
-									</div> <!-- End Testimonial Author -->
-
-									<!-- Testimonial Text -->
-									<p>At sagittis congue augue egestas undo magna ipsum vitae purus ipsum primis in
-										cubilia
-										laoreet augue ociis at nullam tempor sapien gravida porta integer at odio velna
-										auctor.
-										An augue in cubilia laoreet magna suscipit egestas magna ipsum vitae purus ipsum
-										primis
-										cubilia laoreet augue ultrice ligula egestas
-									</p>
-
-								</div>
-
-
-							</div>
-						</div>
-					</div> <!-- END TESTIMONIALS CONTENT -->
-
-
-				</div> <!-- End container -->
-			</section> <!-- END TESTIMONIALS-1 -->
-
-
-
-
-			<!-- BRANDS-2
-				============================================= -->
-			<div id="brands-2" class="wide-100 brands-section division">
-				<div class="container">
-
-
-					<!-- TEXT -->
-					<div class="row">
-						<div class="col-md-12 text-center mb-10">
-							<h5 class="h5-md grey-color">We partner with companies of all sizes, all around the world
-							</h5>
-						</div>
-					</div>
-
-
-					<!-- BRANDS HOLDER -->
-					<div class="row brands-holder">
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-01" class="col-sm-6 col-md-3 b-bottom b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-1.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-02" class="col-sm-6 col-md-3 b-bottom b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-2.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-03" class="col-sm-6 col-md-3 b-bottom b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-3.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-04" class="col-sm-6 col-md-3 b-bottom">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-4.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-05" class="col-sm-6 col-md-3 b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-5.png" alt="brand-logo">
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-06" class="col-sm-6 col-md-3 b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-6.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-07" class="col-sm-6 col-md-3 b-right">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-7.png" alt="brand-logo" />
-							</div>
-						</div>
-
-						<!-- BRAND LOGO IMAGE -->
-						<div id="bl-08" class="col-sm-6 col-md-3">
-							<div class="brand-logo">
-								<img class="img-fluid" src="images/brand-8.png" alt="brand-logo" />
-							</div>
-						</div>
-
-
-					</div> <!-- END BRANDS HOLDER -->
-
-
-				</div> <!-- End container -->
-			</div> <!-- END BRANDS-2 -->
-
-
-
-
 			<!-- CALL TO ACTION-4
 				============================================= -->
 			<section id="cta-4" class="bg-fixed cta-section division">
@@ -1433,8 +1089,8 @@
 								<h5 class="h5-md">Contact Details</h5>
 
 								<!-- Address -->
-								<p class="p-sm">121 King Street, Melbourne,</p>
-								<p class="p-sm">Victoria 3000 Australia</p>
+								<p class="p-sm">4th lane, Opp LVR club, Lakshmipuram,Guntur</p>
+								<p class="p-sm">Andhrapradesh, 522007</p>
 
 								<!-- Phone -->
 								<p class="p-sm mt-20">Phone: +12 9 8765 4321</p>
@@ -1483,13 +1139,13 @@
 
 								<!-- Footer Links -->
 								<ul class="foo-links clearfix">
-									<li><a href="visa-details.php">Visitor Visas</a></li>
-									<li><a href="visa-details.php">Permanent Residence Visas</a></li>
-									<li><a href="visa-details.php">Business Visas</a></li>
-									<li><a href="visa-details.php">Working Holiday Visas</a></li>
-									<li><a href="visa-details.php">Studying & Training Visas</a></li>
-									<li><a href="visa-details.php">Skilled Work Visas</a></li>
-									<li><a href="visa-details.php">Family & Partner Visas</a></li>
+									<li><a href="visa-details">Visitor Visas</a></li>
+									<li><a href="visa-details">Permanent Residence Visas</a></li>
+									<li><a href="visa-details">Business Visas</a></li>
+									<li><a href="visa-details">Working Holiday Visas</a></li>
+									<li><a href="visa-details">Studying & Training Visas</a></li>
+									<li><a href="visa-details">Skilled Work Visas</a></li>
+									<li><a href="visa-details">Family & Partner Visas</a></li>
 								</ul>
 
 							</div>
