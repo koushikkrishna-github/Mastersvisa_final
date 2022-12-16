@@ -6,9 +6,11 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="author" content="mastersVisa" />
-	<meta name="description" content="Masters Visa - Immigration and Visa Consulting Website" />	<meta name="keywords" content="education visa, work visa, job placement support, loans, Business, Coaching, Consulting, Creative, Immigration, Visa">
+	<meta name="author" content="Koushik krishna Boddu" />
+	<meta name="description" content="Masters Visa - Immigration and Visa Consulting Website" />
+	<meta name="keywords" content="education visa, work visa, job placement support, loans, Business, Coaching, Consulting, Creative, Immigration, Visa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="keywords" content="visa, abroad education, visiting visa, H1B, immigration, consultancy, Travel visa, student visa, PR visa, Business visa, Family visa, tourist visa">
 
 	<!-- SITE TITLE -->
 	<title>Masters Visa - Way to Success</title>
@@ -147,7 +149,7 @@
 									</ul> -->
 								</li> <!-- END DROPDOWN MENU -->
 
-
+								<li><a href="about">About Us </a></li>
 								<!-- PAGES -->
 								<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
 									<div class="wsmegamenu clearfix">
@@ -157,31 +159,21 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about">About Us Page</a></li>
-													<li><a href="courses-list">Courses List Page</a></li>
-													<li><a href="course-details">Course Details Page</a></li>
+
+													<li><a href="courses-list">Courses List </a></li>
+													<li><a href="course-details">Course Details </a></li>
 													<li><a href="partners">Partners & Colleges</a></li>
-													<li><a href="faqs">FAQs Page</a></li>
+													<li><a href="faqs">FAQs </a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details">Countries List Page</a></li>
-													<li><a href="country-details">Country Details Page</a></li>
-													<li><a href="visa-list-1">Visa List Page #1</a></li>
-													<li><a href="visa-list-2">Visa List Page #2</a></li>
-													<li><a href="visa-details">Visa Details Page</a></li>
-												</ul>
 
-												<!-- MEGAMENU LINKS -->
-												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
-													<li class="title">Auxiliary Pages:</li>
-													<li><a href="blog-listing.php">Blog Listing Page</a></li>
-													<li><a href="single-post.php">Single Blog Post</a></li>
-													<li><a href="contacts-1">Contact Style #1</a></li>
-													<li><a href="contacts-2">Contact Style #2</a></li>
-													<li><a href="contacts-3">Contact Style #3</a></li>
+
+
+													<li><a href="visa-list">Visa List </a></li>
+													<li><a href="visa-details">Visa Details Page</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -190,63 +182,9 @@
 								</li> <!-- END PAGES -->
 
 
-								<!-- MEGAMENU -->
-								<li aria-haspopup="true"><a href="#">Mega Menu <span class="wsarrow"></span></a>
-									<div class="wsmegamenu clearfix">
-										<div class="container">
-											<div class="row">
-
-
-												<!-- MEGAMENU QUICK LINKS -->
-												<div class="col-md-12 col-lg-5">
-
-													<!-- Title -->
-													<h3 class="title">What We Offer:</h3>
-
-													<ul class="link-list">
-														<li><a href="#">Student Visa Assessment</a></li>
-														<li><a href="#">Working Visa Assessment</a></li>
-														<li><a href="#">Business Visa Assessment</a></li>
-														<li><a href="#">PR Visa Assessment</a></li>
-														<li><a href="#">Visa Eligibility Assessment</a></li>
-														<li><a href="#">Family Visa Assessment</a></li>
-														<li><a href="#">Immigration Consultation</a></li>
-													</ul>
-
-												</div> <!-- END MEGAMENU QUICK LINKS -->
-
-
-												<!-- MEGAMENU FEATURED NEWS -->
-												<div class="col-md-12 col-lg-5">
-
-													<!-- Title -->
-													<h3 class="title">Featured News:</h3>
-
-													<!-- Image -->
-													<div class="fluid-width-video-wrapper mb-15"><img src="images/blog/featured-news.jpg" alt="featured-news" />
-													</div>
-
-													<!-- Text -->
-													<h5 class="h5-md"><a href="#">We make the visa process faster</a>
-													</h5>
-													<p class="wsmwnutxt">Porta semper lacus cursus, feugiat primis
-														ultrice in ligula risus auctor
-														tempus feugiat dolor impedit magna...
-													</p>
-
-												</div> <!-- END MEGAMENU FEATURED NEWS -->
-
-
-
-
-											</div> <!-- End row -->
-										</div> <!-- End container -->
-									</div> <!-- End wsmegamenu -->
-								</li> <!-- END MEGAMENU -->
-
 
 								<!-- SIMPLE NAVIGATION LINK -->
-								<li class="nl-simple" aria-haspopup="true"><a href="#">Simple Link</a></li>
+								<li class="nl-simple" aria-haspopup="true"><a href="contact.php">Contact Us</a></li>
 
 
 								<!-- LAST NAVIGATION LINK -->

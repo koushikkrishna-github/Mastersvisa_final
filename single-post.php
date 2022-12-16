@@ -159,20 +159,20 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about">About Us Page</a></li>
-									                    <li><a href="courses-list">Courses List Page</a></li>
-									                    <li><a href="course-details">Course Details Page</a></li>
+									                    <li><a href="about">About Us </a></li>
+									                    <li><a href="courses-list">Courses List </a></li>
+									                    <li><a href="course-details">Course Details </a></li>
 									                    <li><a href="partners">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs">FAQs Page</a></li>                   
+									                    <li><a href="faqs">FAQs </a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details">Countries List Page</a></li>
-									                    <li><a href="country-details">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2">Visa List Page #2</a></li>
+									                    
+									                    				          
+									                    
+									                    <li><a href="visa-list">Visa List Page #2</a></li>
 									                    <li><a href="visa-details">Visa Details Page</a></li>
 									                </ul>
 
@@ -183,7 +183,7 @@
 									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
 									                    <li><a href="contacts-1">Contact Style #1</a></li>
 									                    <li><a href="contacts-2">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3">Contact Style #3</a></li> 						
+									                    <li><a href="contact">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	

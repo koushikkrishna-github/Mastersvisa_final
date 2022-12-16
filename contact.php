@@ -139,10 +139,8 @@
 
 						<!-- LOGO IMAGE -->
 						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-						<div class="desktoplogo"><a href="index" class="logo-black"><img
-									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-						<div class="desktoplogo"><a href="index" class="logo-white"><img
-									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+						<div class="desktoplogo"><a href="#" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+						<div class="desktoplogo"><a href="#" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 						<!-- MAIN MENU -->
@@ -161,7 +159,7 @@
 									</ul> -->
 								</li> <!-- END DROPDOWN MENU -->
 
-
+								<li><a href="about">About Us </a></li>
 								<!-- PAGES -->
 								<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
 									<div class="wsmegamenu clearfix">
@@ -171,31 +169,21 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about">About Us Page</a></li>
-													<li><a href="courses-list">Courses List Page</a></li>
-													<li><a href="course-details">Course Details Page</a></li>
+
+													<li><a href="courses-list">Courses List </a></li>
+													<li><a href="course-details">Course Details </a></li>
 													<li><a href="partners">Partners & Colleges</a></li>
-													<li><a href="faqs">FAQs Page</a></li>
+													<li><a href="faqs">FAQs </a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details">Countries List Page</a></li>
-													<li><a href="country-details">Country Details Page</a></li>
-													<li><a href="visa-list-1">Visa List Page #1</a></li>
-													<li><a href="visa-list-2">Visa List Page #2</a></li>
-													<li><a href="visa-details">Visa Details Page</a></li>
-												</ul>
 
-												<!-- MEGAMENU LINKS -->
-												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
-													<li class="title">Auxiliary Pages:</li>
-													<li><a href="blog-listing.php">Blog Listing Page</a></li>
-													<li><a href="single-post.php">Single Blog Post</a></li>
-													<li><a href="contacts-1">Contact Style #1</a></li>
-													<li><a href="contacts-2">Contact Style #2</a></li>
-													<li><a href="contacts-3">Contact Style #3</a></li>
+
+
+													<li><a href="visa-list">Visa List </a></li>
+													<li><a href="visa-details">Visa Details Page</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -204,128 +192,14 @@
 								</li> <!-- END PAGES -->
 
 
-								<!-- MEGAMENU -->
-								<li aria-haspopup="true"><a href="#">Mega Menu <span class="wsarrow"></span></a>
-									<div class="wsmegamenu clearfix">
-										<div class="container">
-											<div class="row">
-
-
-												<!-- MEGAMENU QUICK LINKS -->
-												<div class="col-md-12 col-lg-3">
-
-													<!-- Title -->
-													<h3 class="title">What We Offer:</h3>
-
-													<ul class="link-list">
-														<li><a href="#">Student Visa Assessment</a></li>
-														<li><a href="#">Working Visa Assessment</a></li>
-														<li><a href="#">Business Visa Assessment</a></li>
-														<li><a href="#">PR Visa Assessment</a></li>
-														<li><a href="#">Visa Eligibility Assessment</a></li>
-														<li><a href="#">Family Visa Assessment</a></li>
-														<li><a href="#">Immigration Consultation</a></li>
-													</ul>
-
-												</div> <!-- END MEGAMENU QUICK LINKS -->
-
-
-												<!-- MEGAMENU FEATURED NEWS -->
-												<div class="col-md-12 col-lg-5">
-
-													<!-- Title -->
-													<h3 class="title">Featured News:</h3>
-
-													<!-- Image -->
-													<div class="fluid-width-video-wrapper mb-15"><img
-															src="images/blog/featured-news.jpg" alt="featured-news" />
-													</div>
-
-													<!-- Text -->
-													<h5 class="h5-md"><a href="#">We make the visa process faster</a>
-													</h5>
-													<p class="wsmwnutxt">Porta semper lacus cursus, feugiat primis
-														ultrice in ligula risus auctor
-														tempus feugiat dolor impedit magna...
-													</p>
-
-												</div> <!-- END MEGAMENU FEATURED NEWS -->
-
-
-												<!-- MEGAMENU LATEST NEWS -->
-												<div class="col-md-12 col-lg-4">
-
-													<!-- Title -->
-													<h3 class="title">Latest News:</h3>
-
-													<!-- Latest News -->
-													<ul class="latest-news">
-
-														<!-- Post #1 -->
-														<li class="clearfix d-flex align-items-center">
-
-															<!-- Image -->
-															<img class="img-fluid" src="images/blog/latest-post-1.jpg"
-																alt="blog-post-preview" />
-
-															<!-- Text -->
-															<div class="post-summary">
-																<a href="#">Etiam sapien risus ante auctor tempus an
-																	accumsan ...</a>
-																<p>18 hours ago</p>
-															</div>
-
-														</li>
-
-														<!-- Post #2 -->
-														<li class="clearfix d-flex align-items-center">
-
-															<!-- Image -->
-															<img class="img-fluid" src="images/blog/latest-post-2.jpg"
-																alt="blog-post-preview" />
-
-															<!-- Text -->
-															<div class="post-summary">
-																<a href="#">Blandit tempor sapien ipsum, porta risus
-																	auctor justo ...</a>
-																<p>Dec 02, 2019</p>
-															</div>
-
-														</li>
-
-														<!-- Post #3 -->
-														<li class="clearfix d-flex align-items-center">
-
-															<!-- Image -->
-															<img class="img-fluid" src="images/blog/latest-post-3.jpg"
-																alt="blog-post-preview" />
-
-															<!-- Text -->
-															<div class="post-summary">
-																<a href="#">Cursus risus an auctor risus laoreet undo
-																	auctor varius ...</a>
-																<p>Nov 26, 2019</p>
-															</div>
-
-														</li>
-													</ul>
-												</div> <!-- END MEGAMENU LATEST NEWS -->
-
-
-											</div> <!-- End row -->
-										</div> <!-- End container -->
-									</div> <!-- End wsmegamenu -->
-								</li> <!-- END MEGAMENU -->
-
 
 								<!-- SIMPLE NAVIGATION LINK -->
-								<li class="nl-simple" aria-haspopup="true"><a href="#">Simple Link</a></li>
+								<li class="nl-simple" aria-haspopup="true"><a href="contact.php">Contact Us</a></li>
 
 
 								<!-- LAST NAVIGATION LINK -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts-1"
-										class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+									<a href="contacts-1" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								</li>
 
 

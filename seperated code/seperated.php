@@ -925,3 +925,68 @@
 
 				</div> <!-- End container -->
 			</div> <!-- END BRANDS-2 -->
+
+
+
+
+
+
+
+
+
+
+
+			
+								<!-- MEGAMENU -->
+								<li aria-haspopup="true"><a href="#">Mega Menu <span class="wsarrow"></span></a>
+									<div class="wsmegamenu clearfix">
+										<div class="container">
+											<div class="row">
+
+
+												<!-- MEGAMENU QUICK LINKS -->
+												<div class="col-md-12 col-lg-5">
+
+													<!-- Title -->
+													<h3 class="title">What We Offer:</h3>
+
+													<ul class="link-list">
+														<li><a href="#">Student Visa Assessment</a></li>
+														<li><a href="#">Working Visa Assessment</a></li>
+														<li><a href="#">Business Visa Assessment</a></li>
+														<li><a href="#">PR Visa Assessment</a></li>
+														<li><a href="#">Visa Eligibility Assessment</a></li>
+														<li><a href="#">Family Visa Assessment</a></li>
+														<li><a href="#">Immigration Consultation</a></li>
+													</ul>
+
+												</div> <!-- END MEGAMENU QUICK LINKS -->
+
+
+												<!-- MEGAMENU FEATURED NEWS -->
+												<div class="col-md-12 col-lg-5">
+
+													<!-- Title -->
+													<h3 class="title">Featured News:</h3>
+
+													<!-- Image -->
+													<div class="fluid-width-video-wrapper mb-15"><img src="images/blog/featured-news.jpg" alt="featured-news" />
+													</div>
+
+													<!-- Text -->
+													<h5 class="h5-md"><a href="#">We make the visa process faster</a>
+													</h5>
+													<p class="wsmwnutxt">Porta semper lacus cursus, feugiat primis
+														ultrice in ligula risus auctor
+														tempus feugiat dolor impedit magna...
+													</p>
+
+												</div> <!-- END MEGAMENU FEATURED NEWS -->
+
+
+
+
+											</div> <!-- End row -->
+										</div> <!-- End container -->
+									</div> <!-- End wsmegamenu -->
+								</li> <!-- END MEGAMENU -->
