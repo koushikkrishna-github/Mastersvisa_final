@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -136,9 +139,9 @@
 
 						<!-- LOGO IMAGE -->
 						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-						<div class="desktoplogo"><a href="index.html" class="logo-black"><img
+						<div class="desktoplogo"><a href="index.php" class="logo-black"><img
 									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-						<div class="desktoplogo"><a href="index.html" class="logo-white"><img
+						<div class="desktoplogo"><a href="index.php" class="logo-white"><img
 									src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
@@ -148,7 +151,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -168,31 +171,31 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about.html">About Us Page</a></li>
-													<li><a href="courses-list.html">Courses List Page</a></li>
-													<li><a href="course-details.html">Course Details Page</a></li>
-													<li><a href="partners.html">Partners & Colleges</a></li>
-													<li><a href="faqs.html">FAQs Page</a></li>
+													<li><a href="about.php">About Us Page</a></li>
+													<li><a href="courses-list.php">Courses List Page</a></li>
+													<li><a href="course-details.php">Course Details Page</a></li>
+													<li><a href="partners.php">Partners & Colleges</a></li>
+													<li><a href="faqs.php">FAQs Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details.html">Countries List Page</a></li>
-													<li><a href="country-details.html">Country Details Page</a></li>
-													<li><a href="visa-list-1.html">Visa List Page #1</a></li>
-													<li><a href="visa-list-2.html">Visa List Page #2</a></li>
-													<li><a href="visa-details.html">Visa Details Page</a></li>
+													<li><a href="country-details.php">Countries List Page</a></li>
+													<li><a href="country-details.php">Country Details Page</a></li>
+													<li><a href="visa-list-1.php">Visa List Page #1</a></li>
+													<li><a href="visa-list-2.php">Visa List Page #2</a></li>
+													<li><a href="visa-details.php">Visa Details Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Auxiliary Pages:</li>
-													<li><a href="blog-listing.html">Blog Listing Page</a></li>
-													<li><a href="single-post.html">Single Blog Post</a></li>
-													<li><a href="contacts-1.html">Contact Style #1</a></li>
-													<li><a href="contacts-2.html">Contact Style #2</a></li>
-													<li><a href="contacts-3.html">Contact Style #3</a></li>
+													<li><a href="blog-listing.php">Blog Listing Page</a></li>
+													<li><a href="single-post.php">Single Blog Post</a></li>
+													<li><a href="contacts-1.php">Contact Style #1</a></li>
+													<li><a href="contacts-2.php">Contact Style #2</a></li>
+													<li><a href="contacts-3.php">Contact Style #3</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -321,7 +324,7 @@
 
 								<!-- LAST NAVIGATION LINK -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts-1.html"
+									<a href="contacts-1.php"
 										class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								</li>
 
@@ -354,7 +357,7 @@
 						<div class="col">
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb white-color">
-									<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
+									<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
 									<li class="breadcrumb-item active" aria-current="page">About Masters Visa</li>
 								</ol>
 							</nav>
@@ -481,7 +484,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -497,7 +500,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -513,7 +516,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -529,7 +532,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -545,7 +548,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -561,7 +564,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -577,7 +580,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -593,7 +596,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -609,7 +612,7 @@
 									placerat</p>
 
 								<!--Link -->
-								<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+								<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 							</div>
 						</div>
@@ -660,14 +663,14 @@
 
 										<!-- List -->
 										<ul class="abox-list">
-											<li><a href="country-details.html">Canada</a></li>
-											<li><a href="country-details.html">Australia</a></li>
-											<li><a href="country-details.html">United Kingdom</a></li>
-											<li><a href="country-details.html">USA</a></li>
-											<li><a href="country-details.html">New Zealand</a></li>
-											<li><a href="country-details.html">South Korea</a></li>
+											<li><a href="country-details.php">Canada</a></li>
+											<li><a href="country-details.php">Australia</a></li>
+											<li><a href="country-details.php">United Kingdom</a></li>
+											<li><a href="country-details.php">USA</a></li>
+											<li><a href="country-details.php">New Zealand</a></li>
+											<li><a href="country-details.php">South Korea</a></li>
 											<li class="more-info-link darkblue-color">
-												<a href="country-list.html">View All <i
+												<a href="country-list.php">View All <i
 														class="fas fa-caret-right"></i></a>
 											</li>
 										</ul>
@@ -683,14 +686,14 @@
 
 										<!-- List -->
 										<ul class="abox-list">
-											<li><a href="visa-details.html">Student Visa</a></li>
-											<li><a href="visa-details.html">Skilled Work Visa</a></li>
-											<li><a href="visa-details.html">Business visa</a></li>
-											<li><a href="visa-details.html">Spouse/Family Visa</a></li>
-											<li><a href="visa-details.html">Tourist & Visitor Visa</a></li>
-											<li><a href="visa-details.html">Immigration Consult</a></li>
+											<li><a href="visa-details.php">Student Visa</a></li>
+											<li><a href="visa-details.php">Skilled Work Visa</a></li>
+											<li><a href="visa-details.php">Business visa</a></li>
+											<li><a href="visa-details.php">Spouse/Family Visa</a></li>
+											<li><a href="visa-details.php">Tourist & Visitor Visa</a></li>
+											<li><a href="visa-details.php">Immigration Consult</a></li>
 											<li class="more-info-link darkblue-color">
-												<a href="visa-list-1.html">View All <i
+												<a href="visa-list-1.php">View All <i
 														class="fas fa-caret-right"></i></a>
 											</li>
 										</ul>
@@ -1480,13 +1483,13 @@
 
 								<!-- Footer Links -->
 								<ul class="foo-links clearfix">
-									<li><a href="visa-details.html">Visitor Visas</a></li>
-									<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-									<li><a href="visa-details.html">Business Visas</a></li>
-									<li><a href="visa-details.html">Working Holiday Visas</a></li>
-									<li><a href="visa-details.html">Studying & Training Visas</a></li>
-									<li><a href="visa-details.html">Skilled Work Visas</a></li>
-									<li><a href="visa-details.html">Family & Partner Visas</a></li>
+									<li><a href="visa-details.php">Visitor Visas</a></li>
+									<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+									<li><a href="visa-details.php">Business Visas</a></li>
+									<li><a href="visa-details.php">Working Holiday Visas</a></li>
+									<li><a href="visa-details.php">Studying & Training Visas</a></li>
+									<li><a href="visa-details.php">Skilled Work Visas</a></li>
+									<li><a href="visa-details.php">Family & Partner Visas</a></li>
 								</ul>
 
 							</div>

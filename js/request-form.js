@@ -49,7 +49,7 @@ $(document).ready(function () {
             flag = true;
         }
         var dataString = "name=" + name.val() + "&email=" + email.val() + "&phone=" + phone.val() + "&visa=" + visa.val() + "&country=" + country.val();
-        $(".loading").fadeIn("slow").html("Loading...");
+        $(".loading").fadeIn("slow").php("Loading...");
         $.ajax({
             type: "POST",
             data: dataString,
@@ -58,9 +58,9 @@ $(document).ready(function () {
             success: function (d) {
                 $(".form-control").removeClass("success");
                 if (d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
-                    $('.loading').fadeIn('slow').html('<font color="#00596e">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
+                    $('.loading').fadeIn('slow').php('<font color="#00596e">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
                 else
-                    $('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
+                    $('.loading').fadeIn('slow').php('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
             }
         });
         return false;

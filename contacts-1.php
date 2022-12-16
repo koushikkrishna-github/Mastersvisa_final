@@ -129,8 +129,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -139,7 +139,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -148,6 +148,7 @@
 										<li aria-haspopup="true"><a href="#">Dummy Link #5</a></li>
 									</ul> -->
 								</li> <!-- END DROPDOWN MENU -->
+
 					          	
 						          	<!-- PAGES -->
 						          	<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
@@ -158,31 +159,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -301,7 +302,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -333,8 +334,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item active" aria-current="page">Our Partners & Colleges</li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
 								  	</ol>
 								</nav>
 							</div>
@@ -345,18 +346,25 @@
 
 
 
-				<!-- BRANDS-3
-				============================================= -->				
-				<section id="brands-3" class="wide-80 brands-section division">
-					<div class="container">	
+				<!-- GOOGLE MAP
+				============================================= -->
+				<div id="gmap" class="gmap"></div>
+
+
+
+
+				<!-- CONTACTS-4
+				============================================= -->
+				<section id="contacts-4" class="bg-lightgrey bg-tra-city wide-100 contacts-section division">
+					<div class="container">
 
 
 						<!-- SECTION TITLE -->
 						<div class="row">	
-							<div class="col-md-12 section-title center">			
+							<div class="col-md-12 section-title center">		
 
 				 				<!-- Title -->
-								<h2 class="h2-xs">Partner Institutes & Universities</h2>
+								<h2 class="h2-xs">Have Questions? Get in Touch</h2>
 
 								<!-- Text -->	
 								<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
@@ -367,285 +375,151 @@
 						</div>	 <!-- END SECTION TITLE -->	
 
 
-						<!-- BRANDS FILTERING BUTTONS -->
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<div class="brands-filter mb-50">
-				                    <button data-filter="*" class="is-checked"> All Countries</button>
-				                    <button data-filter=".canada">Canada</button>
-				                    <button data-filter=".australia">Australia</button>
-				                    <button data-filter=".usa">USA</button>
-				                    <button data-filter=".uk">United Kingdom</button>
-				                    <button data-filter=".new-zealand">New Zealand</button>
-				                    <button data-filter=".china">China</button>
-				                    <button class="last-button" data-filter=".south-korea">South Korea</button>
-				                </div>
-							</div>
-						</div>
+					 	<div class="row">
 
 
-						<!-- BRANDS HOLDER -->
-						<div class="row">	
-							<div class="col-md-12 brands-list">
-								<div class="masonry-wrap grid-loaded hover-primary">
+					 		<div class="col-lg-5">
+					 			<div class="contact-boxes">
 
-									<!-- BRAND #1 -->
-								  	<div class="brand-3 canada">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
+
+						 			<!-- LOCATION -->
+									<div class="contact-box icon-xs clearfix mb-25">
+
+										<!-- Icon -->	
+										<div class="contact-box-icon"><span class="flaticon-240-placeholder"></span></div>
+
+										<!-- Text -->
+										<div class="contact-box-txt">
+											<h5 class="h5-sm deepblue-color">4th lane, Opp LVR club, Lakshmipuram</h5>
+											<h5 class="h5-xs deepblue-color">Guntur, 522007, INDIA</h5>												
+											<p class="grey-color">Our Location</p>
 										</div>
-								  	</div>
 
-								  	<!-- BRAND #2 -->
-								  	<div class="brand-3 canada">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+									</div>
 
-								  	<!-- BRAND #3 -->
-								  	<div class="brand-3 canada">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
 
-								  	<!-- BRAND #4 -->
-								  	<div class="brand-3 canada">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+									<!-- PHONES -->
+									<div class="contact-box icon-xs clearfix mb-25">
 
-								  	<!-- BRAND #5 -->
-								  	<div class="brand-3 canada">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+										<!-- Icon -->	
+										<div class="contact-box-icon"><span class="flaticon-172-telephone-1"></span></div>
 
-								  	<!-- BRAND #6 -->
-								  	<div class="brand-3 australia">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
+										<!-- Text -->
+										<div class="contact-box-txt">
+											<h5 class="h5-sm deepblue-color">P: +12 3 3456 7890</h5>	
+											<h5 class="h5-xs deepblue-color">F: +12 3 0987 6543</h5>	
+											<p class="grey-color">Let's Talk</p>
 										</div>
-								  	</div>
 
-								  	<!-- BRAND #7 -->
-								  	<div class="brand-3 australia">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+									</div>
 
-								  	<!-- BRAND #8 -->
-								  	<div class="brand-3 australia">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
 
-								  	<!-- BRAND #9 -->
-								  	<div class="brand-3 usa">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+									<!-- EMAIL -->
+									<div class="contact-box icon-xs clearfix">
 
-								  	<!-- BRAND #10 -->
-								  	<div class="brand-3 usa">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+										<!-- Icon -->	
+										<div class="contact-box-icon"><span class="flaticon-235-mail"></span></div>
 
-								  	<!-- BRAND #11 -->
-								  	<div class="brand-3 usa">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
+										<!-- Text -->
+										<div class="contact-box-txt">
+											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">info@mastersvisa.com</a></h5>	
+											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">career@domain.com</a></h5>	
+											<p class="grey-color">Drop a Line</p>
 										</div>
-								  	</div>
 
-								  	<!-- BRAND #12 -->
-								  	<div class="brand-3 uk">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
+									</div>
 
-								  	<!-- BRAND #13 -->
-								  	<div class="brand-3 uk">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #14 -->
-								  	<div class="brand-3 uk">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #15 -->
-								  	<div class="brand-3 uk">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #16 -->
-								  	<div class="brand-3 uk">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #17 -->
-								  	<div class="brand-3 new-zealand">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #18 -->
-								  	<div class="brand-3 new-zealand">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #19 -->
-								  	<div class="brand-3 new-zealand">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #20 -->
-								  	<div class="brand-3 china">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #21 -->
-								  	<div class="brand-3 china">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #22 -->
-								  	<div class="brand-3 china">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #23 -->
-								  	<div class="brand-3 south-korea">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #24 -->
-								  	<div class="brand-3 south-korea">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
-
-								  	<!-- BRAND #25 -->
-								  	<div class="brand-3 south-korea">
-								  		<div class="brand-logo">
-											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
-											<p class="p-sm">Enter University Name Here</p>
-										</div>
-								  	</div>
 
 								</div>
 							</div>
-						</div>	<!-- END BRANDS HOLDER -->
 
 
-					</div>     <!-- End container -->
-				</section>	<!-- END BRANDS-3 -->
+							<!-- CONTACT FORM -->	
+					 		<div class="col-lg-7">
+					 			<div class="form-holder">
+					 				<form name="contactForm" class="row contact-form">
+
+					 					<!-- Contact Form Input -->
+						                <div id="input-name" class="col-lg-12">
+						                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
+						                </div>
+						                 
+						                <!-- Contact Form Input -->        
+						                <div id="input-email" class="col-lg-12">
+						                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
+						                </div>	
+
+						                <!-- Contact Form Select -->
+						                <div id="input-subject" class="col-lg-12 input-subject">
+						                    <select id="inlineFormCustomSelect2" name="subject" class="custom-select subject" required>
+						                        <option value="">Your Question About..</option>  
+						                      	<option>Student Visa</option>
+						                      	<option>Travel visa</option>
+						                      	<option>Working Visa</option>
+						                      	<option>Business Visa</option>
+						                      	<option>Visitor Visa</option>
+						                      	<option>Other...</option>
+						                    </select>
+						                </div>			                          
+						                 
+						                 <!-- Contact Form Mesaage -->        
+						                <div id="input-message" class="col-lg-12 input-message">
+						                	<textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required></textarea>
+						                </div> 
+						                                            
+						                <!-- Contact Form Button -->
+						                <div class="col-lg-12 mt-15 form-btn"> 
+						                	<button type="submit" class="btn btn-primary tra-black-hover submit">Send Your Message</button> 
+						                </div>
+						                                                              
+						                <!-- Contact Form Message -->
+						                <div class="col-lg-12 contact-form-msg text-center">
+						                	<div class="sending-msg"><span class="loading"></span></div>
+						                </div>				                                           
+					                                              
+					                </form> 
+					 			</div>	
+					 		</div>	 <!-- END CONTACT FORM -->	 	
+
+
+					 	</div>    <!-- End row -->
+					</div>	   <!-- End container -->
+				</section>	<!-- END CONTACTS-4 -->
 
 
 
 
-				<!-- ABOUT-6
+				<!-- CALL TO ACTION-4
 				============================================= -->
-				<section id="about-6" class="bg-scroll pt-100 about-section division">
+				<section id="cta-4" class="bg-fixed cta-section division">
 					<div class="container white-color">
 						<div class="row d-flex align-items-center">
 
 
-							<!-- ABOUT IMAGE -->
-				 			<div class="col-lg-6">
-				 				<div class="about-6-img text-center">
-									<img class="img-fluid" src="images/image-08.png" alt="about-image" />
-								</div>
-				 			</div>
+							<!-- CALL TO ACTION TEXT -->
+							<div class="col-md-8 col-lg-7 offset-md-4 offset-lg-5">
+								<div class="cta-txt">
 
-						
-							<!-- ABOUT TEXT -->
-							<div class="col-lg-6">
-								<div class="about-6-txt pc-20">
-
-									<!-- Title -->
-									<h2 class="h2-xs">Looking for Quality Abroad Education?</h2>
+									<!-- Title  -->
+									<h3 class="h3-xl">Consultations for prospective immigrants</h3>
 
 									<!-- Text -->
-									<p class="p-md">Fringilla risus luctus mauris auctor purus euismod pretium purus at pretium
-									   ligula rutrum viverra tortor sapien sodales quaerat sodales sapien blandit dolores and aliquam
-									</p>		
+									<p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+									   tempus, and blandit ligula varius
+									</p>
 
-									<!-- Small Title -->
-									<h5 class="h5-lg">350+ Universities in 17 Countries:</h5>		
+									<!-- Button  -->
+									<a href="mailto:info@mastersvisa.com" class="btn btn-md btn-primary tra-white-hover btn-arrow">
+										<span>Get Consultation <i class="fas fa-arrow-right"></i></span>
+									</a>
 
-									<!-- Flags list -->
-									<ul class="flags-list">
-										<li><a href="country-details.html"><img src="images/flags/canada.png" alt="flag"/><span>Canada</span></a></li>
-										<li><a href="country-details.html"><img src="images/flags/australia.png" alt="flag"/><span>Australia</span></a></li>
-										<li><a href="country-details.html"><img src="images/flags/usa.png" alt="flag"/><span>USA</span></a></li>	
-										<li><a href="country-details.html"><img src="images/flags/united-kingdom.png" alt="flag"/><span>UK</span></a></li>	
-										<li><a href="country-details.html"><img src="images/flags/eu.png" alt="flag"/><span>Europe</span></a></li>	
-									</ul>	
-
-								</div>							
-							</div> <!-- END ABOUT TEXT -->
+								</div>	
+							</div>
 
 
-						</div>    <!-- End row -->
-					</div>     <!-- End container -->
-				</section>	<!-- END ABOUT-6 -->
+						</div>	  <!-- End row -->
+					</div>	   <!-- End container -->
+				</section>	<!-- END CALL TO ACTION-4 -->
 
 
 
@@ -734,13 +608,13 @@
 
 									<!-- Footer Links -->
 									<ul class="foo-links clearfix">
-										<li><a href="visa-details.html">Visitor Visas</a></li>
-										<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-										<li><a href="visa-details.html">Business Visas</a></li>
-										<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-										<li><a href="visa-details.html">Studying & Training Visas</a></li>
-										<li><a href="visa-details.html">Skilled Work Visas</a></li>
-										<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+										<li><a href="visa-details.php">Visitor Visas</a></li>
+										<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+										<li><a href="visa-details.php">Business Visas</a></li>
+										<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+										<li><a href="visa-details.php">Studying & Training Visas</a></li>
+										<li><a href="visa-details.php">Skilled Work Visas</a></li>
+										<li><a href="visa-details.php">Family & Partner Visas</a></li>							
 									</ul>
 
 								</div>
@@ -837,6 +711,12 @@
 			<script src="js/html5shiv.js" type="text/javascript"></script>
 			<script src="js/respond.min.js" type="text/javascript"></script>
 		<![endif] -->
+
+		<!-- Google Map -->
+	    <script src="js/google-map.js"></script>
+
+		<!-- To use this code on your website, get a free API key from Google. Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUQmwdDWm3cQXhPqIO9TsKHq7hrvh2XrU&callback=initMap" async defer></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->	
 		<!--

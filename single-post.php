@@ -129,8 +129,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -139,7 +139,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,31 +159,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -302,7 +302,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -334,8 +334,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item"><a href="blog-listing.html">All Posts</a></li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item"><a href="blog-listing.php">All Posts</a></li>
 								    	<li class="breadcrumb-item active" aria-current="page">The United King...</li>
 								  	</ol>
 								</nav>
@@ -498,14 +498,14 @@
 											<div class="col-md-5">
 												<div class="prev-post mb-30 pr-45">								
 													<h5 class="h5-xs"><i class="fas fa-arrow-left"></i> Previous Post</h5>
-													<a href="single-post.html">Canada Federal Skilled Worker Program</a>
+													<a href="single-post.php">Canada Federal Skilled Worker Program</a>
 												</div>
 											</div>
 
 											<!-- All Posts -->
 											<div class="col-md-2 text-center">
 												<div class="all-posts mb-30">		
-													<a href="blog-listing.html"><i class="fas fa-th-large"></i></a>
+													<a href="blog-listing.php"><i class="fas fa-th-large"></i></a>
 												</div>
 											</div>
 
@@ -513,7 +513,7 @@
 											<div class="col-md-5 text-right">
 												<div class="next-post mb-30 pl-45">		
 													<h5 class="h5-xs">Next Post <i class="fas fa-arrow-right"></i></h5>
-													<a href="single-post.html">Top Reasons for Australian Working Visa Rejection</a>
+													<a href="single-post.php">Top Reasons for Australian Working Visa Rejection</a>
 												</div>
 											</div>
 
@@ -713,14 +713,14 @@
 
 									<!-- List -->
 									<ul class="blog-category-list clearfix">
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Education Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Skilled Woker Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Work Permit Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> PR and Migrate Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Business Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spouse/Family Visas</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Tourist & Visitor Visas</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Working Holiday Visas</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Education Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Skilled Woker Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Work Permit Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> PR and Migrate Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Business Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spouse/Family Visas</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Tourist & Visitor Visas</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Working Holiday Visas</a></li>
 									</ul>
 
 								</div>
@@ -742,7 +742,7 @@
 
 											<!-- Link -->
 											<h5 class="h5-sm">
-												<a href="single-post.html">Ways to move to Denmark</a>
+												<a href="single-post.php">Ways to move to Denmark</a>
 											</h5>
 
 											<!-- Text -->	
@@ -758,7 +758,7 @@
 
 											<!-- Link -->
 											<h5 class="h5-sm0">
-												<a href="single-post.html">Schengen Countries to begin New Visa Sticker from 21st December</a>
+												<a href="single-post.php">Schengen Countries to begin New Visa Sticker from 21st December</a>
 											</h5>
 
 											<!-- Text -->	
@@ -774,7 +774,7 @@
 
 											<!-- Link -->
 											<h5 class="h5-sm">
-												<a href="single-post.html">4 Destinations for a Family Holiday in Portugal 2020 </a>
+												<a href="single-post.php">4 Destinations for a Family Holiday in Portugal 2020 </a>
 											</h5>
 
 											<!-- Text -->	
@@ -812,15 +812,15 @@
 									<!-- List -->
 									<ul class="sidebar-country-list clearfix">
 
-										<li><a href="country-detail.html">
+										<li><a href="country-detail.php">
 											<img class="img-fluid" src="images/sidebar-canada.jpg" alt="sidebar-image" />Canada</a>
 										</li>
 
-										<li><a href="country-detail.html">
+										<li><a href="country-detail.php">
 											<img class="img-fluid" src="images/sidebar-uk.jpg" alt="sidebar-image" />United Kingdom</a>
 										</li>
 
-										<li><a href="country-detail.html">
+										<li><a href="country-detail.php">
 											<img class="img-fluid" src="images/sidebar-usa.jpg" alt="sidebar-image" />United States of America</a>
 										</li>
 

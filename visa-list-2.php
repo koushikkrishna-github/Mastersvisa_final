@@ -129,8 +129,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -139,7 +139,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,31 +159,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -302,7 +302,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -334,8 +334,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item active" aria-current="page">Our Latest News & Articles</li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item active" aria-current="page">Visa Categories</li>
 								  	</ol>
 								</nav>
 							</div>
@@ -346,326 +346,268 @@
 
 
 
-				<!-- BLOG PAGE CONTENT
+				<!-- SERVICES-3
 				============================================= -->
-				<section id="blog-page" class="wide-100 blog-page-section division">
+				<section id="services-3" class="wide-60 services-section division">
 					<div class="container">
-					 	<div class="row">
+						<div class="row">
 
 
-					 		<!-- BLOG POSTS HOLDER -->
-					 		<div class="col-lg-8">
-					 			<div class="posts-holder pr-15">
-
-
-									<!-- BLOG POST #1 -->
-									<div class="blog-post">
-
-			 			
-							 			<!-- BLOG POST IMAGE -->
-							 			<div class="blog-post-img mb-30">
-											<img class="img-fluid" src="images/blog/post-4-img.jpg" alt="blog-post-image" />	
-										</div>
-
-										<!-- BLOG POST TEXT -->
-										<div class="blog-post-txt">
-
-											<!-- Post Meta -->
-											<p class="post-meta"><a href="#" class="grey-color">Immigration Visa</a> - 12 min read</p>
-
-											<!-- Title -->
-											<h4 class="h4-xs">
-												<a href="single-post.html" class="darkblue-color">What visa do you need to work legally in Singapore?</a>
-											</h4>
-
-											<!-- Text -->
-											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-											   auctor congue magna tempor sodales sapien. Quaerat neque purus ipsum neque dolor primis...
-											</p>
-
-											<!-- Post Data -->
-											<p class="post-data">By <a href="#">Sean McMarthy</a> - 18 hours ago</p>	
-
-										</div>
-
-
-									</div>	<!-- END BLOG POST #1 -->
-
-
-									<!-- BLOG POST #2 -->
-									<div class="blog-post">
-
-			 			
-							 			<!-- BLOG POST IMAGE -->
-							 			<div class="blog-post-img mb-30">
-											<img class="img-fluid" src="images/blog/post-5-img.jpg" alt="blog-post-image" />	
-										</div>
-
-										<!-- BLOG POST TEXT -->
-										<div class="blog-post-txt">
-
-											<!-- Post Meta -->
-											<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 8 min read</p>
-
-											<!-- Title -->
-											<h4 class="h4-xs">
-												<a href="single-post.html" class="darkblue-color">Top reasons for Australian working visa rejection</a>
-											</h4>
-
-											<!-- Text -->
-											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-											   auctor congue magna tempor sodales sapien libero tempus impedit tempor blandit sapien gravida...
-											</p>
-
-											<!-- Post Data -->
-											<p class="post-data">By <a href="#">Ben Markton</a> - Dec 02, 2019</p>	
-
-										</div>
-
-
-									</div>	<!-- END BLOG POST #2 -->
-
-
-									<!-- BLOG POST #3 -->
-									<div class="blog-post">
-
-					 			
-							 			<!-- BLOG POST IMAGE -->
-							 			<div class="blog-post-img blog-video text-center mb-30">
-
-							 				<!-- Preview Image -->		
-											<img class="img-fluid" src="images/blog/post-6-img.jpg" alt="blog-post-image" />	
-
-											<!-- Change the link HERE!!! -->	
-											<div class="video-preview icon-lg white-color">
-												<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
-													<span class="flaticon-159-play-button"></span>											
-												</a>
-											</div>
-										</div>
-
-										<!-- BLOG POST TEXT -->
-										<div class="blog-post-txt">
-
-											<!-- Post Meta -->
-											<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 6 hours read</p>
-
-											<!-- Post Title -->
-											<h4 class="h4-xs">
-												<a href="single-post.html" class="darkblue-color">Canada Federal Skilled Worker Program</a>
-											</h4>
-
-											<!-- Text -->
-											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-											   auctor congue magna tempor sodales sapien donec ipsum, at porta justo purus ipsum neque...
-											</p>
-
-											<!-- Post Data -->
-											<p class="post-data">By <a href="#">Caroline</a> - Nov 26, 2019</p>	
-
-										</div>
-
-
-									</div>	<!-- END BLOG POST #3 -->
-
-
-									<!-- BLOG POST #4 -->
-									<div class="blog-post">
-
-					 			
-							 			<!-- BLOG POST IMAGE -->
-							 			<div class="blog-post-img mb-30">
-											<img class="img-fluid" src="images/blog/post-7-img.jpg" alt="blog-post-image" />	
-										</div>
-
-										<!-- BLOG POST TEXT -->
-										<div class="blog-post-txt">
-
-											<!-- Post Meta -->
-											<p class="post-meta"><a href="#" class="grey-color">PR Visa</a> - 4 hours read</p>
-
-											<!-- Post Title -->
-											<h4 class="h4-xs">
-												<a href="single-post.html" class="darkblue-color">The United Kingdom Immigration & Permanent Residency Consultants</a>
-											</h4>
-
-											<!-- Text -->
-											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-											   auctor congue magna tempor sodales sapien dolor primis libero tempus, tempor posuere ligula...
-											</p>
-
-											<!-- Post Data -->
-											<p class="post-data">By <a href="#">Caroline</a> - Nov 17, 2019</p>	
-
-										</div>
-
-
-									</div>	<!-- END BLOG POST #4 -->
-
+							<!-- SERVICE BOX #1 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
 									
-									<!-- BLOG PAGE PAGINATION -->
-									<div class="blog-page-pagination">
-										<nav aria-label="Page navigation">
-											<ul class="pagination justify-content-center primary-pagination">
-		    									<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-long-arrow-alt-left"></i></a></li>
-											    <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
-											    <li class="page-item"><a class="page-link" href="#">2</a> </li>
-											    <li class="page-item"><a class="page-link" href="#">3</a></li>
-											    <li class="page-item next-page"><a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right"></i></a></li>
-		 									</ul>	
-		 								</nav>					
-									</div>
+										<!-- Icon -->
+										<span class="flaticon-431-bank"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Education Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #2 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
 									
+										<!-- Icon -->
+										<span class="flaticon-004-wrench"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Skilled Woker Visa</h5>
 
-								</div>
-							</div>	<!-- END BLOG POSTS HOLDER -->
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
 
-
-							<!-- SIDEBAR -->
-							<aside id="sidebar" class="col-lg-4">
-
-
-								<!-- SEARCH FIELD --> 
-								<div id="search-field" class="sidebar-div mb-50">								
-									<div class="input-group mb-3">
-									  	<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-field">
-									 	<div class="input-group-append">
-									    	<button class="btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-									 	</div>
-									</div>
-								</div>
+									</a>
+								</div>							
+							</div>
 
 
-								<!-- BLOG CATEGORIES --> 
-								<div class="blog-categories sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Categories</h5>
-
-									<!-- List -->
-									<ul class="blog-category-list clearfix">
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Education Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Skilled Woker Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Work Permit Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> PR and Migrate Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Business Visa</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spouse/Family Visas</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Tourist & Visitor Visas</a></li>
-										<li><a href="visa-details.html" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Working Holiday Visas</a></li>
-									</ul>
-
-								</div>
-
-
-								<!-- LATEST POSTS -->
-								<div class="popular-posts sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Latest Posts</h5>
-
-									<ul class="latest-posts">
+							<!-- SERVICE BOX #3 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
 									
-										<!-- Latest Post #1 -->
-										<li class="clearfix">
+										<!-- Icon -->
+										<span class="flaticon-292-gear"></span>	
+											
+										<!-- Title -->
+										<h5 class="h5-md">Work Permit Visa</h5>
 
-											<!-- Date -->	
-											<p class="p-sm lp-date">18 hours ago - <span class="txt-400">Immigration Visa</span></p>
-
-											<!-- Link -->
-											<h5 class="h5-sm">
-												<a href="single-post.html">Ways to move to Denmark</a>
-											</h5>
-
-											<!-- Text -->	
-											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p> 
-
-										</li>
-										
-										<!-- Latest Post #2 -->
-										<li class="clearfix">
-
-											<!-- Date -->	
-											<p class="p-sm lp-date">Dec 02, 2019 - <span class="txt-400">Working Visa</span></p>
-
-											<!-- Link -->
-											<h5 class="h5-sm0">
-												<a href="single-post.html">Schengen Countries to begin New Visa Sticker from 21st December</a>
-											</h5>
-
-											<!-- Text -->	
-											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p>
-
-										</li>
-										
-										<!-- Latest Post #3 -->
-										<li class="clearfix">
-
-											<!-- Date -->	
-											<p class="p-sm lp-date">Nov 26, 2019 - <span class="txt-400">Travel Visa</span></p>
-
-											<!-- Link -->
-											<h5 class="h5-sm">
-												<a href="single-post.html">4 Destinations for a Family Holiday in Portugal 2020 </a>
-											</h5>
-
-											<!-- Text -->	
-											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p>
-
-										</li>
-									</ul>
-
-								</div>
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+								
+									</a>
+								</div>							
+							</div>
 
 
-								<!-- TAGS CLOUD -->
-								<div class="tags-cloud sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Tags Cloud</h5>
+							<!-- SERVICE BOX #4 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-397-briefcase"></span>	
+											
+										<!-- Title -->
+										<h5 class="h5-md">Business Visa</h5>
 
-									<span class="badge"><a href="#">Consultations</a></span> 	
-									<span class="badge"><a href="#">Education</a></span>
-									<span class="badge"><a href="#">Embassy</a></span> 	
-									<span class="badge"><a href="#">Immigration</a></span>  	
-									<span class="badge"><a href="#">Travelling</a></span> 
-									<span class="badge"><a href="#">Travel Tips</a></span> 										
-									<span class="badge"><a href="#">Tourism</a></span> 
-									<span class="badge"><a href="#">Visa</a></span>									  								
-								</div>
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+								
+									</a>
+								</div>							
+							</div>
 
 
-								<!-- SIDEBAR COUNTRIES --> 
-								<div class="sidebar-countries sidebar-div mb-50">
-										
-									<!-- Title -->
-									<h5 class="h5-lg">Countries: </h5>
+							<!-- SERVICE BOX #5 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-023-wallet"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Investor Visa</h5>
 
-									<!-- List -->
-									<ul class="sidebar-country-list clearfix">
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
 
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-canada.jpg" alt="sidebar-image" />Canada</a>
-										</li>
+									</a>
+								</div>							
+							</div>
 
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-uk.jpg" alt="sidebar-image" />United Kingdom</a>
-										</li>
 
-										<li><a href="country-detail.html">
-											<img class="img-fluid" src="images/sidebar-usa.jpg" alt="sidebar-image" />United States of America</a>
-										</li>
+							<!-- SERVICE BOX #6 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-324-dollar-1"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Sponsorship Visa</h5>
 
-									</ul>
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
 
-								</div>
-							
+									</a>
+								</div>							
+							</div>
 
-							</aside>	<!-- END SIDEBAR -->
+
+							<!-- SERVICE BOX #7 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-102-sign"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">PR Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #8 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-067-suitcase-1"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Migrate Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #9 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-034-user-1"></span>	
+											
+										<!-- Title -->
+										<h5 class="h5-md">Visitor Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #10 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-032-user-3"></span>	
+											
+										<!-- Title -->
+										<h5 class="h5-md">Family Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #11 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-285-internet-2"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Tourist Visa</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
+
+
+							<!-- SERVICE BOX #12 -->
+							<div class="col-md-6 col-lg-4">
+								<div class="sbox-3 icon-lg">
+									<a href="visa-details.php">
+									
+										<!-- Icon -->
+										<span class="flaticon-265-question"></span>
+											
+										<!-- Title -->
+										<h5 class="h5-md">Immigration Consult</h5>
+
+										<!-- Text -->
+										<p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+										   tempus feugiat dolor and lacinia blandit posuere ligula
+										</p>
+
+									</a>
+								</div>							
+							</div>
 
 
 						</div>    <!-- End row -->
 					</div>     <!-- End container -->
-				</section>	<!-- END BLOG PAGE CONTENT -->
+				</section>	<!-- END SERVICES-3 -->
 
 
 
@@ -789,13 +731,13 @@
 
 									<!-- Footer Links -->
 									<ul class="foo-links clearfix">
-										<li><a href="visa-details.html">Visitor Visas</a></li>
-										<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-										<li><a href="visa-details.html">Business Visas</a></li>
-										<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-										<li><a href="visa-details.html">Studying & Training Visas</a></li>
-										<li><a href="visa-details.html">Skilled Work Visas</a></li>
-										<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+										<li><a href="visa-details.php">Visitor Visas</a></li>
+										<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+										<li><a href="visa-details.php">Business Visas</a></li>
+										<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+										<li><a href="visa-details.php">Studying & Training Visas</a></li>
+										<li><a href="visa-details.php">Skilled Work Visas</a></li>
+										<li><a href="visa-details.php">Family & Partner Visas</a></li>							
 									</ul>
 
 								</div>

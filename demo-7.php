@@ -48,10 +48,10 @@
 		<!-- TEMPLATE CSS -->
 		<!-- <link href="css/aqua.css" rel="stylesheet">    --> 
 	    <!-- <link href="css/blue.css" rel="stylesheet">    --> 
-	    <!-- <link href="css/darkred.css" rel="stylesheet"> --> 
+	    <link href="css/darkred.css" rel="stylesheet">
 	    <!-- <link href="css/green.css" rel="stylesheet">   --> 
 	    <!-- <link href="css/olive.css" rel="stylesheet">   -->
-	    <link href="css/red.css" rel="stylesheet">
+	    <!-- <link href="css/red.css" rel="stylesheet">     --> 
 	    <!-- <link href="css/orange.css" rel="stylesheet">  -->
 	    <!-- <link href="css/salmon.css" rel="stylesheet">  -->
 	    <!-- <link href="css/teal.css" rel="stylesheet">    -->
@@ -88,15 +88,14 @@
 			
 			<!-- HEADER
 			============================================= -->
-			<header id="header-2" class="header blue-menu">
+			<header id="header-2" class="header white-menu">
 				<div class="header-wrapper">
 
 
 					<!-- MOBILE HEADER -->
 				    <div class="wsmobileheader clearfix">	
 				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	    	
-				    	<span class="smllogo smllogo-white"><img src="images/logo-white.png" width="200" height="50" alt="mobile-logo"/></span>
-				    	<span class="smllogo smllogo-black"><img src="images/brand/logo.png" width="200" height="50" alt="mobile-logo"/></span>
+				    	<span class="smllogo"><img src="images/brand/logo.png" width="200" height="50" alt="mobile-logo"/></span>
 				    	<a href="tel:+91 9133855571" class="callusbtn"><i class="fas fa-phone"></i></a>
 				 	</div>
 
@@ -108,14 +107,13 @@
 				    		<!-- Infotmation -->
 				     		<div class="headertopleft">			     			
 				        		<div class="header-info clearfix">
-				        			<span class="txt-400"><i class="fas fa-map-marker-alt"></i>4th lane, Opp LVR club, Lakshmipuram, Guntur, 522007</span> 
+				        			<span class="txt-400"><i class="far fa-clock"></i>Mon to Sat : <span>08:00 AM - 5:30 PM</span></span> 
 				            	</div>
 				     		</div>
 
 				     		<!-- Contacts -->
-						    <div class="headertopright header-contacts">
-						    	<a href="tel:+91 9133855571" class="callusbtn txt-400"><i class="fas fa-phone"></i>+61-2 3456 7890,</a>
-						    	<a href="tel:+91 9133855571" class="callusbtn b-right txt-400">&#8194;+61-2 7890 3456</a>
+						    <div class="headertopright header-contacts">						    	
+						    	<span class=" b-right txt-400"><i class="fas fa-map-marker-alt"></i>4th lane, Opp LVR club, Lakshmipuram, Guntur, 522007</span> 
 						    	<a href="mailto:info@mastersvisa.com" class="txt-400"><i class="far fa-envelope-open"></i>info@mastersvisa.com</a>
 					      	</div>
 
@@ -130,8 +128,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="#hero-6" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="#hero-6" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-7" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-7" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -140,7 +138,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,31 +157,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -302,7 +300,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="tel:+91 9133855571" class="header-btn btn-primary tra-white-hover last-link">
+								    	<a href="tel:+91 9133855571" class="header-btn btn-primary tra-black-hover last-link">
 									    	<i class="fas fa-mobile-alt last-link"></i> (800)-569-7890
 									    </a>
 								    </li>
@@ -321,121 +319,325 @@
 
 
 
-			<!-- HERO-6
+			<!-- HERO-7
 			============================================= -->	
-			<section id="hero-6" class="bg-fixed hero-section division">
-				<div class="container">	
-					<div class="row d-flex align-items-center">
+			<section id="hero-7" class="hero-section">
 
 
-						<!-- HERO TEXT -->
-						<div class="col-lg-7">
-							<div class="hero-6-txt mb-40">
-
-
+				<!-- HERO TEXT -->
+				<div class="bg-scroll hero-7-txt division">
+					<div class="container white-color">		
+						<div id="hero-7-content" class="row">
+							<div class="col-lg-10 offset-lg-1 hero-txt text-center">
+	
 								<!-- Title -->
-								<h4 class="h4-xs">We have 20+ years experience in</h4>  
-								<h2>Immigration Services & Visa Consultations</h2>
-
-								<!-- Text -->
-								<p class="p-md">Nemo ipsam egestas volute turpis dolores aliquam quaerat sodales sapien undo 
-								   pretium purus ligula tempus ipsum undo auctor mauris Quaerat sodales a sapien undo euismod 
-								   purus and blandit
+	        					<h4 class="h4-xs">We have 20+ years experience in</h4>
+				         	 	<h2>Immigration and Visa Consultation</h2>
+					          	
+					          	 <!-- Text -->
+								<p class="p-md">Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in iaculis
+								   and placerat purus feugiat primis ultrice in ligula impedit magna purus pretium neque ligula
 								</p>
 
-								<!-- Button -->
-								<a href="#" class="btn btn-md btn-primary black-hover btn-arrow">
-									<span>Discover More <i class="fas fa-arrow-right"></i></span>
-								</a>
+								<!-- HERO LINKS -->
+								<div class="hero-links icon-xs text-center white-color clearfix">
+									<h5 class="h5-sm"><span class="flaticon-375-checked"></span> Goverment Approved</h5>
+									<h5 class="h5-sm"><span class="flaticon-375-checked"></span> No Hidden Costs</h5>
+									<h5 class="h5-sm"><span class="flaticon-375-checked"></span> Secure Online Form</h5>	
+								</div>
 
-					
-							</div>
-						</div>	<!-- END HERO TEXT -->
-						
-
-					</div>     <!-- End row -->
-				</div>     <!-- End container -->
-			</section>	<!-- END HERO-6 -->
+							</div>							
+						</div>													
+					</div>	 <!-- End container -->		
+				</div> 	  <!-- END HERO TEXT -->
 
 
+				<!-- HERO COUNTRIES CAROUSEL -->		
+				<div class="hero-7-countries division">
+					<div class="container">		
+						<div class="col-md-12">
+							<div class="owl-carousel owl-theme hero-coutries-carousel">
 
 
-			<!-- ABOUT-3
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/canada-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/canada.png" alt="flag-icon"/>
+												<h5 class="h5-sm">Canada</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>							
+
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/australia-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/australia.png" alt="flag-icon"/>
+												<h5 class="h5-sm">Australia</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>		
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/singapore-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/singapore.png" alt="flag-icon"/>
+												<h5 class="h5-sm">Singapore</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>		
+
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/usa-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/usa.png" alt="flag-icon"/>
+												<h5 class="h5-sm">USA</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>		
+
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/uk-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/united-kingdom.png" alt="flag-icon"/>
+												<h5 class="h5-sm">United Kingdom</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>		
+
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/germany-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/germany.png" alt="flag-icon"/>
+												<h5 class="h5-sm">Germany</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>	
+
+
+								<!-- COUNTRY BOX -->
+								<div class="hbox-1">
+									<a href="#">
+
+										<!-- Image -->
+										<div class="hover-overlay"> 
+											<img class="img-fluid" src="images/china-400x400.jpg" alt="country-image" />
+											<div class="item-overlay"></div>
+										</div>	
+											
+										<!-- Title -->
+										<div class="hbox-1-content">
+											<div class="hbox-1-txt">
+												<img src="images/flags/china.png" alt="flag-icon"/>
+												<h5 class="h5-sm">China</h5>
+											</div>
+										</div>
+
+									</a>
+								</div>	
+
+
+							</div>	<!-- End tab-carousel -->
+
+						</div>
+					</div> <!-- End container -->	
+				</div>	<!-- END HERO COUNTRIES CAROUSEL -->	
+
+
+			</section>	<!-- END HERO-7 -->
+
+
+
+
+			<!-- SERVICES-5
 			============================================= -->
-			<section id="about-3" class="about-section division">
+			<section id="services-5" class="bg-tra-map bg-lightgrey services-section division">
 				<div class="container">
-					<div class="abox-3-holder">
-						<div class="row d-flex align-items-center">
+					<div class="row d-flex align-items-center">
 
+						
+						<!-- SERVICES TEXT -->
+						<div class="col-lg-5">
+							<div class="services-5-txt">
 
-							<!-- ABOUT BOX #1 -->
-							<div class="col-lg-4">
-								<div class="abox-3 icon-sm">
+								<!-- Section ID -->	
+					 			<span class="section-id id-color">Quality Strategy</span>
+								
+								<!-- Title -->
+								<h3 class="h3-lg">We provide top consulting services</h3>
 
-									<!-- Icon -->
-									<div class="abox-3-icon grey-color"><span class="flaticon-431-bank"></span></div>	
-										
-									<!-- Text -->
-									<div class="abox-3-txt">
+								<!-- Text -->
+								<p>The blandit nullam tempor sapien gravida donec enim ipsum porta justo integer odio 
+								   velna a vitae auctor integer congue a magna pretium at purus pretium ligula
+								</p> 
 
-										<h5 class="h5-md">Overseas Education and Study Visa Consultants</h5>
-										<p>Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor
-										   tempus feugiat dolor and lacinia
-										</p>
-
-									</div>
-
-								</div>
 							</div>
+						</div>
 
 
-							<!-- ABOUT BOX #3 -->
-							<div class="col-lg-4">
-								<div class="abox-3 icon-sm">
+						<!-- SERVICE BOXES -->
+						<div class="col-lg-7">
+							<div class="row">
 
-									<!-- Icon -->
-									<div class="abox-3-icon grey-color"><span class="flaticon-102-sign"></span></div>	
+
+								<!-- SERVICE BOX #1 -->
+								<div class="col-md-6">
+									<div class="sbox-5 icon-xs">
+										<a href="visa-details.php">
 										
-									<!-- Text -->
-									<div class="abox-3-txt">
-
-										<h5 class="h5-md">Immigration and Permanent Residency Consultants</h5>
-										<p>Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor
-										   tempus feugiat dolor and lacinia
-										</p>
-
-									</div>
-
-								</div>
-							</div>
-
-
-							<!-- ABOUT BOX #3 -->
-							<div class="col-lg-4">
-								<div class="abox-3 icon-sm">
-
-									<!-- Icon -->
-									<div class="abox-3-icon grey-color"><span class="flaticon-286-earth-globe"></span></div>	
-										
-									<!-- Text -->
-									<div class="abox-3-txt">
-
-										<h5 class="h5-md">Overseas Tourist and Visitor Visa Consultants</h5>
-										<!-- Text -->
-										<p>Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor
-										   tempus feugiat dolor and lacinia
-										</p>
-										
-									</div>
+											<!-- Icon -->
+											<div class="sbox-5-icon primary-color"><span class="flaticon-431-bank"></span></div>	
 									
+											<!-- Text -->
+											<div class="sbox-5-txt">
+												<h5 class="h5-md">Education Visa</h5>
+												<p class="p-sm">Porta semper lacus cursus, feugiat primis ultrice dolor</p>
+											</div>
+
+										</a>
+									</div>							
 								</div>
-							</div>
 
 
-						</div>    <!-- End row -->
-					</div>	   <!-- End container -->
-				</div>	
-			</section>	<!-- END ABOUT-3 -->
+								<!-- SERVICE BOX #2 -->
+								<div class="col-md-6">
+									<div class="sbox-5 icon-xs">
+										<a href="visa-details.php">
+
+											<!-- Icon -->
+											<div class="sbox-5-icon primary-color"><span class="flaticon-033-user-2"></span></div>	
+									
+											<!-- Text -->
+											<div class="sbox-5-txt">
+												<h5 class="h5-md">Working Visa</h5>
+												<p class="p-sm">Porta semper lacus cursus, feugiat primis ultrice dolor</p>
+											</div>
+
+										</a>
+									</div>							
+								</div>
+
+
+								<!-- SERVICE BOX #3 -->
+								<div class="col-md-6">
+									<div class="sbox-5 icon-xs">
+										<a href="visa-details.php">
+										
+											<!-- Icon -->
+											<div class="sbox-5-icon primary-color"><span class="flaticon-397-briefcase"></span>	</div>	
+												
+											<!-- Text -->
+											<div class="sbox-5-txt">
+												<h5 class="h5-md">Business Visa</h5>
+												<p class="p-sm">Porta semper lacus cursus, feugiat primis ultrice dolor</p>
+											</div>
+
+										</a>
+									</div>							
+								</div>						
+
+
+								<!-- SERVICE BOX #4 -->
+								<div class="col-md-6">
+									<div class="sbox-5 icon-xs">
+										<a href="visa-details.php">
+										
+											<!-- Icon -->
+											<div class="sbox-5-icon primary-color"><span class="flaticon-285-internet-2"></span></div>	
+												
+											<!-- Text -->
+											<div class="sbox-5-txt">
+												<h5 class="h5-md">Travel Visa</h5>
+												<p class="p-sm">Porta semper lacus cursus, feugiat primis ultrice dolor</p>
+											</div>
+
+										</a>
+									</div>							
+								</div>
+
+
+							</div>							
+						</div>	<!-- END SERVICE BOXES -->
+
+
+					</div>    <!-- End row -->
+				</div>     <!-- End container -->
+			</section>	<!-- END SERVICES-5 -->
 
 
 
@@ -459,13 +661,14 @@
 			 			<div class="col-md-6">
 			 				<div class="about-2-txt pc-20 mb-40">
 
+
 			 					<!-- Section ID -->	
 					 			<span class="section-id id-color">About Agency</span>
 
 			 					<!-- Title -->
-								<h3 class="h3-lg">We provide the best consulting services in the industry since 2009</h3>
+								<h3 class="h3-lg">Consultations for prospective immigrants</h3>
 
-								<!-- Text -->
+								<!-- INFO BOX #1 -->
 								<div class="box-list">							
 									<div class="box-list-icon"><i class="fas fa-genderless"></i></div>
 									<p>An magnis nulla dolor sapien augue erat iaculis purus tempor magna ipsum vitae purus
@@ -474,13 +677,22 @@
 									</p>							
 								</div>
 
-								<!-- Text -->
+								<!-- INFO BOX #2 -->
 								<div class="box-list">	
 									<div class="box-list-icon"><i class="fas fa-genderless"></i></div>
 									<p>Nemo ipsam egestas volute turpis dolores and aliquam quaerat sodales sapien undo pretium
 									   purus ligula tempus ipsum undo auctor a mauris lectus ipsum blandit
 									</p>				
 								</div>
+									
+								<!-- INFO BOX #3 -->
+								<div class="box-list">							
+									<div class="box-list-icon"><i class="fas fa-genderless"></i></div>
+									<p>Quaerat sodales sapien undo euismod purus and blandit laoreet augue an augue egestas. Augue
+									   iaculis purus and augue tempor congue magna egestas magna ligula
+									</p>							
+								</div>	
+
 									
 							</div>
 			 			</div>	<!-- END ABOUT TEXT	-->
@@ -493,542 +705,41 @@
 
 
 
-			<!-- ABOUT-5
+			<!-- ABOUT-8
 			============================================= -->
-			<section id="about-5" class="bg-lightgrey wide-60 about-section division">
+			<section id="about-8" class="about-section division">
 				<div class="container">	
+					<div class="row">
 
 
-					<!-- SECTION TITLE -->
-					<div class="row">	
-						<div class="col-md-12 section-title">		
+						<!-- ABOUT TEXT -->
+			 			<div class="col-md-7 col-lg-6">
+			 				<div class="about-8-txt bg-darkblue white-color">
 
-			 				<!-- Title -->
-							<h3 class="h3-lg">Find a consultant by:</h3>
+			 					<!-- Section ID -->	
+					 			<span class="section-id id-color">Plannig For The Future</span>
 
-							<!-- Text -->	
-							<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
-							   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-							</p> 
+			 					<!-- Title -->
+								<h3 class="h3-lg">Give wings to your dreams, fly to study or work abroad</h3>
 
+								<!-- Text-->
+								<p>An magnis nulla dolor sapien augue erat iaculis a purus tempor magna ipsum vitae purus 
+								   primis pretium ligula rutrum luctus blandit porta justo integer. Feugiat primis ultrice 
+								   ligula. Nemo ipsam egestas volute turpis dolores and aliquam quaerat sodales sapien undo pretium
+								</p>
+
+								<!-- Button -->
+								<a href="#" class="btn btn-md btn-tra-white primary-hover btn-arrow">
+									<span>Discover More <i class="fas fa-arrow-right"></i></span>
+								</a>				
+
+							</div>
 						</div>
-					</div>
-
-
-			 		<div class="row">
-
-
-			 			<!-- ABOUT TEXT	-->
-			 			<div class="col-lg-5">
-			 				<div class="row">
-
-			 					<div class="col-sm-6">
-			 						<div class="about-5-txt mb-40">
-			 							
-			 							<!-- Title -->
-			 							<h5 class="h5-lg">Country:</h5>
-
-										<!-- List -->
-			 							<ul class="abox-list">
-					 						<li><a href="country-details.html">Canada</a></li>
-											<li><a href="country-details.html">Australia</a></li>
-											<li><a href="country-details.html">United Kingdom</a></li>
-											<li><a href="country-details.html">USA</a></li>
-											<li><a href="country-details.html">New Zealand</a></li>	
-											<li><a href="country-details.html">South Korea</a></li>
-											<li class="more-info-link darkblue-color">
-												<a href="country-list.html">View All <i class="fas fa-caret-right"></i></a>
-											</li>				
-			 							</ul>
-
-			 						</div>
-			 					</div>
-
-			 					<div class="col-sm-6">
-			 						<div class="about-5-txt mb-40">
-
-			 							<!-- Title -->
-			 							<h5 class="h5-lg">Pratice Area:</h5>
-
-										<!-- List -->
-			 							<ul class="abox-list">
-					 						<li><a href="visa-details.html">Student Visa</a></li>
-											<li><a href="visa-details.html">Skilled Work Visa</a></li>
-											<li><a href="visa-details.html">Business visa</a></li>
-											<li><a href="visa-details.html">Spouse/Family Visa</a></li>
-											<li><a href="visa-details.html">Tourist & Visitor Visa</a></li>	
-											<li><a href="visa-details.html">Immigration Consult</a></li>
-											<li class="more-info-link darkblue-color">
-												<a href="visa-list-1.html">View All <i class="fas fa-caret-right"></i></a>
-											</li>							
-			 							</ul>
-			 							
-			 						</div>
-			 					</div>
-
-							</div>
-						</div>	<!-- END ABOUT TEXT	-->
-
-
-			 			<!-- ABOUT IMAGE -->
-			 			<div class="col-lg-7">
-			 				<div class="about-5-img text-center mb-40">
-								<img class="img-fluid" src="images/world-map.png" alt="about-image" />
-							</div>
-			 			</div>
 
 
 					</div>	  <!-- End row -->
 				</div>	   <!-- End container -->
-			</section>	<!-- END ABOUT-5 -->
-
-
-
-
-			<!-- SERVICES-4
-			============================================= -->
-			<section id="services-4" class="wide-70 services-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row">	
-						<div class="col-md-12 section-title center">		
-
-			 				<!-- Title -->
-							<h2 class="h2-xs">ImmiEx Immigration Services</h2>
-
-							<!-- Text -->	
-							<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
-							   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-							</p> 
-
-						</div>
-					</div>
-
-
-					<div class="row">
-
-
-						<!-- SERVICE BOX #1 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="visa-details.html">
-								
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-431-bank"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Education Visa</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-						<!-- SERVICE BOX #2 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="visa-details.html">
-								
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-023-wallet"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Business Immigration</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-						<!-- SERVICE BOX #3 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="visa-details.html">
-								
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-004-wrench"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Skilled Immigration</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-						<!-- SERVICE BOX #4 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="visa-details.html">
-
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-032-user-3"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Spouse/Family Visa</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-						<!-- SERVICE BOX #5 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="visa-details.html">
-								
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-067-suitcase-1"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Tourist & Visitor Visa</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-						<!-- SERVICE BOX #6 -->
-						<div class="col-md-6 col-lg-4">
-							<div class="sbox-4 icon-sm">
-								<a href="courses-list.html">
-
-									<!-- Icon -->
-									<div class="sbox-4-icon grey-color"><span class="flaticon-318-planet-earth"></span></div>
-							
-									<!-- Text -->
-									<div class="sbox-4-txt">
-										<h5 class="h5-md">Language Courses</h5>
-										<p>Porta semper lacus cursus a feugiat primis an ultrice dolor undo congue placerat</p>
-									</div>
-
-								</a>
-							</div>							
-						</div>
-
-
-					</div>    <!-- End row -->
-				</div>     <!-- End container -->
-			</section>	<!-- END SERVICES-4 -->
-
-
-
-
-			<!-- REQUEST FORM
-			============================================= -->
-			<div id="request-1" class="bg-image wide-60 request-form-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- REQUEST FORM TEXT -->
-						<div class="col-md-6 col-xl-6">
-							<div class="request-txt white-color pc-20 mb-40">
-
-								<!-- Section ID -->	
-					 			<span class="section-id id-color">Free 24/7 Support</span>
-
-								<!-- Title -->
-								<h2 class="h2-xs">Get Free & Quality Online Consultation</h2>
-
-								<!-- Samll Title -->
-								<h5 class="h5-md">Euismod risus auctor egestas augue mauri viverra euismod tortor eugiat a mauris placerat</h5>
-
-								<!-- Text -->
-								<p>Fringilla risus nec, luctus mauris orci auctor purus euismod and pretium purus at pretium
-								   ligula rutrum viverra tortor sapien sodales and primis ligula risus auctor egestas augue 
-								   mauri viverra tortor in iaculis placerat eugiat mauris ipsum viverra tortor gravida 
-								</p>			
-
-							</div>
-						</div>	<!-- END REQUEST FORM TEXT -->
-
-
-						<!-- REQUEST FORM -->
-						<div class="col-md-6 col-xl-5 offset-xl-1">
-							<div id="request-form" class="text-center mb-40">
-								<form name="requestForm" class="row request-form bg-lightgrey">
-
-									<!-- Request Form Text -->      
-                                    <div class="col-md-12">
-                                        <h5 class="h5-lg">Request Free Consultation</h5>	
-                                    </div> 
-
-                                    <!-- Request Form Input -->
-					                <div id="input-name" class="col-md-12">
-					                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
-					                </div>
-					                     
-					                <!-- Request Form Input -->       
-					                <div id="input-email" class="col-md-12">
-					                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
-					                </div>
-
-									<!-- Request Form Input -->
-					                <div id="input-phone" class="col-md-12">
-					                	<input type="tel" name="phone" class="form-control phone" placeholder="Enter Your Phone Number*" required> 
-					                </div>	
-
-					                <!-- Request Form Select -->
-					                <div id="input-visa" class="col-md-12 input-visa">
-					                    <select id="inlineFormCustomSelect1" name="visa" class="custom-select visa" required>
-					                        <option value="">Select Visa</option>  
-					                      	<option>Student Visa</option>
-					                      	<option>Travel visa</option>
-					                      	<option>Working Visa</option>
-					                      	<option>Business Visa</option>
-					                      	<option>Visitor Visa</option>
-					                      	<option>PR Visa</option>
-					                    </select>
-					                </div>
-
-					                <!-- Request Form Select -->
-					                <div id="input-country" class="col-md-12 input-country">
-					                    <select id="inlineFormCustomSelect2" name="country" class="custom-select country" required>
-					                        <option value="">Visa For</option>  
-					                      	<option>Australia</option>
-					                      	<option>Canada</option>
-					                      	<option>United Kingdom</option>
-					                      	<option>USA</option>
-					                      	<option>Singapore</option>
-					                      	<option>Netherlands</option>
-					                    </select>
-					                </div>
-						                                            
-					                <!-- Request Form Button -->
-					                <div class="col-md-12 form-btn">  
-					                	<button type="submit" class="btn btn-primary tra-black-hover submit">Send Request</button> 
-					                </div>
-					                                                              
-					                <!-- Request Form Message -->
-					                <div class="col-md-12 request-form-msg text-center">
-					                	<div class="sending-msg"><span class="loading"></span></div>
-					                </div>  
-					                                              
-					            </form>
-							</div>
-						</div>	<!-- END REQUEST FORM -->
-
-
-					</div>	<!-- End row -->
-				</div>  <!-- End container -->
-			</div>	<!-- END REQUEST FORM -->
-
-
-
-
-			<!-- COUNTRIES-3
-			============================================= -->
-			<section id="countries-3" class="wide-80 countries-section division">
-				<div class="container">	
-
-
-					<!-- SECTION TITLE -->
-					<div class="row">	
-						<div class="col-md-12 section-title center">		
-
-			 				<!-- Title -->
-							<h2 class="h2-xs">Immigration Opportunities</h2>
-
-							<!-- Text -->	
-							<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
-							   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-							</p> 
-
-						</div>
-					</div>	 <!-- END SECTION TITLE -->	
-
-
-					<div class="row">
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/canada-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">Canada</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/australia-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">Australia</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/singapore-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">Singapore</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/uk-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">United Kingdom</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/usa-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">USA</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/newzealand-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">New Zealand</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-						<!-- COUNTRY BOX -->
-						<div class="col-sm-6 col-lg-3">
-							<div class="cbox-3">
-								<a href="country-details.html">
-
-									<!-- Image -->
-									<div class="hover-overlay"> 
-
-										<img class="img-fluid" src="images/china-flag.jpg" alt="country-preview" />	
-										<div class="item-overlay"></div>
-
-										<!-- Title -->	
-										<div class="country-name white-color">
-											<h5 class="h5-md">China</h5>
-										</div>
-
-									</div>
-
-								</a>
-							</div>
-						</div>
-
-
-					</div>    <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END COUNTRIES-3 -->
-
-
-
-
-			<!-- HORIZONTAL GREY LINE -->
-			<div class="section-divider"><div class="container"><div class="row"><div class="grey-border"></div></div></div></div>
+			</section>	<!-- END ABOUT-8 -->
 
 
 
@@ -1239,6 +950,339 @@
 					</div>    <!-- End row -->
 				</div>     <!-- End container -->
 			</section>	<!-- END TABS-2 -->
+
+
+
+
+			<!-- HORIZONTAL GREY LINE -->
+			<div class="section-divider"><div class="container"><div class="row"><div class="grey-border"></div></div></div></div>
+
+
+
+
+			<!-- COUNTRIES-3
+			============================================= -->
+			<section id="countries-3" class="wide-80 countries-section division">
+				<div class="container">	
+
+
+					<!-- SECTION TITLE -->
+					<div class="row">	
+						<div class="col-md-12 section-title center">		
+
+			 				<!-- Title -->
+							<h2 class="h2-xs">Immigration Opportunities</h2>
+
+							<!-- Text -->	
+							<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
+							   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
+							</p> 
+
+						</div>
+					</div>	 <!-- END SECTION TITLE -->	
+
+
+					<div class="row">
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/canada-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">Canada</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/australia-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">Australia</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/singapore-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">Singapore</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/uk-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">United Kingdom</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/usa-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">USA</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/newzealand-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">New Zealand</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+						<!-- COUNTRY BOX -->
+						<div class="col-sm-6 col-lg-3">
+							<div class="cbox-3">
+								<a href="country-details.php">
+
+									<!-- Image -->
+									<div class="hover-overlay"> 
+
+										<img class="img-fluid" src="images/china-flag.jpg" alt="country-preview" />	
+										<div class="item-overlay"></div>
+
+										<!-- Title -->	
+										<div class="country-name white-color">
+											<h5 class="h5-md">China</h5>
+										</div>
+
+									</div>
+
+								</a>
+							</div>
+						</div>
+
+
+					</div>    <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END COUNTRIES-3 -->
+
+
+
+
+			<!-- STATISTIC-3
+			============================================= -->
+			<div id="statistic-3" class="bg-image bg-scroll wide-60 statistic-section division">
+				<div class="container white-color">
+
+
+					<!-- STATISTIC 3 TITLE -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="statistic-3-title primary-border">
+								<h3 class="h3-lg">Thousands Of People Choose Our Services</h3>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-lg-10 offset-lg-1">
+							<div class="row">
+
+
+								<!-- STATISTIC BLOCK #1 -->
+								<div class="col-sm-6 col-md-3">							
+									<div class="statistic-block icon-sm">	
+
+										<!-- Text -->
+										<h5 class="yellow-color"><span class="count-element">820</span>+</h5>
+										<p>Happy Students</p>		
+
+									</div>								
+								</div>
+
+								<!-- STATISTIC BLOCK #2 -->
+								<div class="col-sm-6 col-md-3">						
+									<div class="statistic-block icon-sm">
+
+										<!-- Text -->									
+										<h5 class="yellow-color"><span class="count-element">148</span></h5>
+										<p>University Partners</p>	
+
+									</div>						
+								</div>
+
+								<!-- STATISTIC BLOCK #3 -->
+								<div class="col-sm-6 col-md-3">						
+									<div class="statistic-block icon-sm">
+
+										<!-- Text -->									
+										<h5 class="yellow-color"><span class="count-element">80</span>+</h5>
+										<p>Countries</p>
+
+									</div>						
+								</div>
+
+								<!-- STATISTIC BLOCK #4 -->
+								<div class="col-sm-6 col-md-3">										
+									<div class="statistic-block icon-sm">
+
+										<!-- Text -->										
+										<h5 class="yellow-color"><span class="count-element">2487</span></h5>
+										<p>Immigrations</p>
+
+									</div>							
+								</div>
+
+
+							</div>
+						</div>
+					</div>	<!-- End row -->
+				</div>	 <!-- End container -->		
+			</div>	 <!-- END STATISTIC-3 -->
+
+
+
+
+			<!-- ABOUT-1
+			============================================= -->
+			<section id="about-1" class="wide-60 about-section division">
+				<div class="container">	
+			 		<div class="row d-flex align-items-center">
+
+
+			 			<!-- ABOUT TEXT	-->
+			 			<div class="col-md-6">
+			 				<div class="about-1-txt pc-20 mb-40">
+
+			 					<!-- Section ID -->	
+					 			<span class="section-id id-color">Professional Advisors</span>
+
+			 					<!-- Title -->
+								<h3 class="h3-lg">Get guarantee success with our advisors</h3>
+
+								<!-- Text -->
+								<p>Semper lacus cursus porta, feugiat primis ligula risus auctor and rhoncus in ultrice
+								   ligula purus ipsum primis in cubilia augue vitae laoreet augue in cubilia augue egestas 
+								   an ipsum turpis
+								</p>
+
+								<!-- Text -->
+								<p>Cursus risus laoreet auctor, varius augue. Nulla dolor and sapien risus nec, luctus mauris donec 
+								   diam sapien neque in cubilia an ligula quaerat ipsam volute turpis sodales sapien vitae donec ipsum
+								</p>
+
+							</div>
+			 			</div>	<!-- END ABOUT TEXT	-->
+
+
+			 			<!-- ABOUT IMAGE -->
+			 			<div class="col-md-6">
+			 				<div class="about-img text-center mb-40">
+
+			 					<!-- Image -->
+								<img class="img-fluid" src="images/image-03.png" alt="about-image" />
+
+								<!-- Video Link -->
+								<div class="video-square">
+									<div class="video-link icon-lg primary-color">
+										<a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+											<span class="flaticon-159-play-button"></span>
+										</a>
+									</div>
+								</div>
+
+							</div>
+			 			</div>
+	
+
+					</div>	  <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END ABOUT-1 -->
 
 
 
@@ -1481,142 +1525,6 @@
 
 
 
-			<!-- ABOUT-1
-			============================================= -->
-			<section id="about-1" class="wide-60 about-section division">
-				<div class="container">	
-			 		<div class="row d-flex align-items-center">
-
-
-			 			<!-- ABOUT TEXT	-->
-			 			<div class="col-md-6">
-			 				<div class="about-1-txt pc-20 mb-40">
-
-
-			 					<!-- Section ID -->	
-					 			<span class="section-id id-color">Plannig For The Future</span>
-
-			 					<!-- Title -->
-								<h3 class="h3-lg">Consultations for prospective immigrants</h3>
-
-								<!-- Text -->
-								<p>Semper lacus cursus porta, feugiat primis ligula risus auctor and rhoncus in ultrice
-								   ligula purus ipsum primis in cubilia augue vitae laoreet augue in cubilia augue egestas 
-								   an ipsum turpis
-								</p>
-
-								<!-- Text -->
-								<p>Cursus risus laoreet auctor, varius augue. Nulla dolor and sapien risus nec, luctus mauris donec 
-								   diam sapien neque in cubilia an ligula quaerat ipsam volute turpis sodales sapien vitae donec ipsum
-								</p>
-
-								<!-- Button -->
-								<a href="#" class="btn btn-md btn-tra-grey primary-hover btn-arrow">
-									<span>Discover More <i class="fas fa-arrow-right"></i></span>
-								</a>
-
-							</div>
-			 			</div>	<!-- END ABOUT TEXT	-->
-
-
-			 			<!-- ABOUT IMAGE -->
-			 			<div class="col-md-6">
-			 				<div class="about-img text-center mb-40">
-
-			 					<!-- Image -->
-								<img class="img-fluid" src="images/image-03.png" alt="about-image" />
-
-								<!-- Video Link -->
-								<div class="video-square">
-									<div class="video-link icon-lg primary-color">
-										<a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-											<span class="flaticon-159-play-button"></span>
-										</a>
-									</div>
-								</div>
-
-							</div>
-			 			</div>
-	
-
-					</div>	  <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END ABOUT-1 -->
-
-
-
-
-			<!-- STATISTIC-1
-			============================================= -->
-			<div id="statistic-1" class="bg-image wide-60 statistic-section division">
-				<div class="container white-color">
-					<div class="row">
-
-
-						<!-- STATISTIC BLOCK #1 -->
-						<div class="col-sm-6 col-md-3">							
-							<div class="statistic-block icon-sm">	
-
-								<!-- Icon -->
-								<span class="flaticon-316-mortarboard"></span>
-
-								<!-- Text -->
-								<h5><span class="count-element">820</span>+</h5>
-								<p>Students</p>		
-
-							</div>								
-						</div>
-
-						<!-- STATISTIC BLOCK #2 -->
-						<div class="col-sm-6 col-md-3">						
-							<div class="statistic-block icon-sm">
-
-								<!-- Icon -->
-								<span class="flaticon-431-bank"></span>
-
-								<!-- Text -->									
-								<h5><span class="count-element">127</span></h5>
-								<p>Universities</p>	
-
-							</div>						
-						</div>
-
-						<!-- STATISTIC BLOCK #3 -->
-						<div class="col-sm-6 col-md-3">						
-							<div class="statistic-block icon-sm">
-
-								<!-- Icon -->
-								<span class="flaticon-141-invoice"></span>
-
-								<!-- Text -->									
-								<h5><span class="count-element">1636</span></h5>
-								<p>Study Visa</p>
-
-							</div>						
-						</div>
-
-						<!-- STATISTIC BLOCK #4 -->
-						<div class="col-sm-6 col-md-3">										
-							<div class="statistic-block icon-sm">
-
-								<!-- Icon -->
-								<span class="flaticon-033-user-2"></span>
-
-								<!-- Text -->										
-								<h5><span class="count-element">43</span></h5>
-								<p>Advisors</p>
-
-							</div>							
-						</div>
-
-
-					</div>	<!-- End row -->
-				</div>	 <!-- End container -->		
-			</div>	 <!-- END STATISTIC-1 -->
-
-
-
-
 			<!-- FAQs-1
 			============================================= -->
 			<section id="faqs-1" class="wide-100 faqs-section division">				
@@ -1835,7 +1743,7 @@
 					<!-- MORE QUESTIONS BUTTON -->		
 					<div class="row">
 						<div class="col-md-12 text-center more-questions">
-							<h5 class="h5-md">Still have a question? <a href="faqs.html" class="darkblue-color">Ask your question here</a></h5>
+							<h5 class="h5-md">Still have a question? <a href="faqs.php" class="darkblue-color">Ask your question here</a></h5>
 						</div>
 					</div>
 
@@ -1851,7 +1759,7 @@
 
 
 
-
+			
 			<!-- BLOG-1
 			============================================= -->
 			<section id="blog-1" class="wide-60 blog-section division">				
@@ -1895,7 +1803,7 @@
 									<p class="post-meta"><a href="#" class="grey-color">Immigration Visa</a> - 12 min read</p>
 
 									<!-- Title -->
-									<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+									<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 									   What visa do you need to work legally in Singapore?</a>
 									</h5>
 
@@ -1931,7 +1839,7 @@
 									<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 8 min read</p>
 
 									<!-- Title -->
-									<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+									<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 									   Top reasons for Australian working visa rejection</a>
 									</h5>
 
@@ -1967,7 +1875,7 @@
 									<p class="post-meta"><a href="#" class="grey-color">PR Visa</a> - 6 hours read</p>
 
 									<!-- Post Title -->
-									<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+									<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 									   The UK immigration & permanent residency consultants</a>
 									</h5>
 
@@ -1995,81 +1903,18 @@
 
 
 
-			<!-- CALL TO ACTION-1
+			<!-- FOOTER-3
 			============================================= -->
-			<section id="cta-1" class="bg-image bg-scroll cta-section division">
+			<footer id="footer-3" class="bg-blue-map wide-40 footer division">
 				<div class="container white-color">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- CALL TO ACTION TEXT -->
-						<div class="col-lg-8 col-xl-8">
-							<div class="cta-txt">
-								
-								<!-- Title  -->
-								<h3 class="h3-md txt-400">Free Immigration & Visa Consultation</h3>
-
-								<!-- Text -->
-								<p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
-								   tempus, and blandit posuere ligula varius magna congue cursus porta ultrice
-								</p>
-
-							</div>
-						</div>
-
-
-						<!-- CALL TO ACTION BUTTON -->
-						<div class="col-lg-4 col-xl-3 offset-xl-1">
-							<div class="cta-btn text-center">
-
-								<!-- Phone Number -->
-								<p class="p-md">Call : <span>+12 9 8765 4321</span></p>
-								
-								<!-- Button  -->
-								<a href="mailto:info@mastersvisa.com" class="btn btn-md btn-primary tra-white-hover btn-arrow">
-									<span>Get Consultation <i class="fas fa-arrow-right"></i></span>
-								</a>
-
-							</div>
-						</div>
-
-
-					</div>	  <!-- End row -->
-				</div>	   <!-- End container -->	
-			</section>	<!-- END CALL TO ACTION-1 -->
-
-
-
-
-			<!-- FOOTER-2
-			============================================= -->
-			<footer id="footer-2" class="bg-lightgrey wide-40 footer division">
-				<div class="container">
 
 
 					<!-- FOOTER CONTENT -->
 					<div class="row">	
 
 
-						<!-- FOOTER INFO -->
-						<div class="col-xl-3">
-							<div class="footer-info mb-40">
-
-								<!-- Footer Logo -->
-								<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 420 x 100 pixels) -->
-								<img src="images/brand/logo.png" width="210" height="50" alt="footer-logo">
-
-								<!-- Text -->	
-								<p class="p-sm mt-25">Aliquam orci a nullam tempor undo sapien donec gravida an enim ipsum porta
-								   justo velna auctor and congue magna laoreet an augue sapien
-								</p>
-
-							</div>	
-						</div>
-
-
 						<!-- FOOTER CONTACTS -->
-						<div class="col-lg-4 col-xl-3">
+						<div class="col-lg-3 col-xl-3">
 							<div class="footer-box mb-40">
 							
 								<!-- Title -->
@@ -2095,7 +1940,7 @@
 
 
 						<!-- FOOTER LINKS -->
-						<div class="col-lg-4 col-xl-3">
+						<div class="col-lg-3 col-xl-3">
 							<div class="footer-links mb-40">
 							
 								<!-- Title -->
@@ -2117,7 +1962,7 @@
 
 
 						<!-- FOOTER LINKS -->
-						<div class="col-lg-4 col-xl-3">
+						<div class="col-lg-3 col-xl-3">
 							<div class="footer-links mb-40">
 							
 								<!-- Title -->
@@ -2125,17 +1970,42 @@
 
 								<!-- Footer Links -->
 								<ul class="foo-links clearfix">
-									<li><a href="visa-details.html">Visitor Visas</a></li>
-									<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-									<li><a href="visa-details.html">Business Visas</a></li>
-									<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-									<li><a href="visa-details.html">Studying & Training Visas</a></li>
-									<li><a href="visa-details.html">Skilled Work Visas</a></li>
-									<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+									<li><a href="visa-details.php">Visitor Visas</a></li>
+									<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+									<li><a href="visa-details.php">Business Visas</a></li>
+									<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+									<li><a href="visa-details.php">Studying & Training Visas</a></li>
+									<li><a href="visa-details.php">Skilled Work Visas</a></li>
+									<li><a href="visa-details.php">Family & Partner Visas</a></li>						
 								</ul>
-
 							</div>
 						</div>	
+
+
+						<!-- FOOTER NEWSLETTER FORM -->
+						<div class="col-lg-3 col-xl-3">
+							<div class="footer-form mb-20">
+
+								<!-- Title -->
+								<h5 class="h5-md">Stay Always In Touch</h5>
+
+								<!-- Newsletter Form Input -->
+								<form class="newsletter-form">	
+
+									<div class="input-group">
+										<input type="email" class="form-control" placeholder="Your email address" required id="s-email">			
+										<span class="input-group-btn">
+											<button type="submit" class="btn btn-primary tra-black-hover">Subscribe</button> 
+										</span>
+									</div>
+
+									<!-- Newsletter Form Notification -->		
+									<label for="s-email" class="form-notification"></label>
+												
+								</form>
+														
+							</div>
+						</div>
 
 
 					</div>	<!-- END FOOTER CONTENT -->
@@ -2146,34 +2016,20 @@
 						<div class="row d-flex align-items-center">
 
 
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col-lg-6">
-								<p class="footer-copyright">&copy; Copyright <span>ImmiEx 2019</span>. All Rights Reserved</p>
+							<!-- FOOTER LOGO -->
+							<div class="col-md-4 col-lg-3">
+								<!-- Footer Logo -->
+								<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 420 x 100 pixels) -->
+								<img src="images/logo-white.png" width="210" height="50" alt="footer-logo">
 							</div>
 
 
 							<!-- FOOTER SOCIALS LINKS -->
-							<div class="col-lg-6 text-right">
-								<ul class="foo-socials text-center clearfix">
-
-									<li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>	
-									<li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
-									<li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>			
-																																			
-									<!--
-									<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
-									<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
-									<li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>	
-									<li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>								
-									<li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>										
-									<li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
-									<li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
-									<li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
-								    -->	
-
-								</ul>
+							<div class="col-md-8 col-lg-9 text-right">
+								<p class="footer-copyright">&copy; Copyright <span>ImmiEx 2019</span>. All Rights Reserved</p>
+								<p class="p-sm"><a href="#">Privacy Policy</a></p>
+								<p class="p-sm"><a href="#">Terms & Conditions</a></p>
+								<p class="p-sm"><a href="#">Cookies</a></p>
 							</div>
 
 
@@ -2182,8 +2038,8 @@
 
 
 				</div>	   <!-- End container -->										
-			</footer>	<!-- END FOOTER-2 -->
-			
+			</footer>	<!-- END FOOTER-3 -->
+
 
 
 		

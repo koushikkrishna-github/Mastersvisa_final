@@ -1,4 +1,6 @@
+<?php
 
+?>
 <!-- index page brands  -->
 
 		<!-- BRANDS-2
@@ -143,7 +145,7 @@
 								</p>
 
 								<!-- Title -->
-								<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+								<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 										What visa do you need to work legally in Singapore?</a>
 								</h5>
 
@@ -179,7 +181,7 @@
 								<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 8 min read</p>
 
 								<!-- Title -->
-								<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+								<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 										Top reasons for Australian working visa rejection</a>
 								</h5>
 
@@ -215,7 +217,7 @@
 								<p class="post-meta"><a href="#" class="grey-color">PR Visa</a> - 6 hours read</p>
 
 								<!-- Post Title -->
-								<h5 class="h5-lg"><a href="single-post.html" class="darkblue-color">
+								<h5 class="h5-lg"><a href="single-post.php" class="darkblue-color">
 										The UK immigration & permanent residency consultants</a>
 								</h5>
 

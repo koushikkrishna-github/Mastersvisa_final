@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -129,8 +132,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -139,7 +142,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,31 +162,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -302,7 +305,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -334,8 +337,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item active" aria-current="page">Our Latest News & Articles</li>
 								  	</ol>
 								</nav>
 							</div>
@@ -346,145 +349,326 @@
 
 
 
-				<!-- GOOGLE MAP
+				<!-- BLOG PAGE CONTENT
 				============================================= -->
-				<div id="gmap" class="gmap"></div>
-
-
-
-
-				<!-- CONTACTS-4
-				============================================= -->
-				<section id="contacts-4" class="bg-lightgrey bg-tra-city wide-100 contacts-section division">
+				<section id="blog-page" class="wide-100 blog-page-section division">
 					<div class="container">
-
-
-						<!-- SECTION TITLE -->
-						<div class="row">	
-							<div class="col-md-12 section-title center">		
-
-				 				<!-- Title -->
-								<h2 class="h2-xs">Have Questions? Get in Touch</h2>
-
-								<!-- Text -->	
-								<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
-								   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-								</p> 
-
-							</div>
-						</div>	 <!-- END SECTION TITLE -->	
-
-
 					 	<div class="row">
 
 
-					 		<div class="col-lg-5">
-					 			<div class="contact-boxes">
+					 		<!-- BLOG POSTS HOLDER -->
+					 		<div class="col-lg-8">
+					 			<div class="posts-holder pr-15">
 
 
-						 			<!-- LOCATION -->
-									<div class="contact-box icon-xs clearfix mb-25">
+									<!-- BLOG POST #1 -->
+									<div class="blog-post">
 
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-240-placeholder"></span></div>
-
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-sm deepblue-color">4th lane, Opp LVR club, Lakshmipuram</h5>
-											<h5 class="h5-xs deepblue-color">Guntur, 522007, INDIA</h5>												
-											<p class="grey-color">Our Location</p>
+			 			
+							 			<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img mb-30">
+											<img class="img-fluid" src="images/blog/post-4-img.jpg" alt="blog-post-image" />	
 										</div>
 
-									</div>
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
 
+											<!-- Post Meta -->
+											<p class="post-meta"><a href="#" class="grey-color">Immigration Visa</a> - 12 min read</p>
 
-									<!-- PHONES -->
-									<div class="contact-box icon-xs clearfix mb-25">
+											<!-- Title -->
+											<h4 class="h4-xs">
+												<a href="single-post.php" class="darkblue-color">What visa do you need to work legally in Singapore?</a>
+											</h4>
 
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-172-telephone-1"></span></div>
+											<!-- Text -->
+											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
+											   auctor congue magna tempor sodales sapien. Quaerat neque purus ipsum neque dolor primis...
+											</p>
 
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-sm deepblue-color">P: +12 3 3456 7890</h5>	
-											<h5 class="h5-xs deepblue-color">F: +12 3 0987 6543</h5>	
-											<p class="grey-color">Let's Talk</p>
+											<!-- Post Data -->
+											<p class="post-data">By <a href="#">Sean McMarthy</a> - 18 hours ago</p>	
+
 										</div>
 
-									</div>
+
+									</div>	<!-- END BLOG POST #1 -->
 
 
-									<!-- EMAIL -->
-									<div class="contact-box icon-xs clearfix">
+									<!-- BLOG POST #2 -->
+									<div class="blog-post">
 
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-235-mail"></span></div>
-
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">info@mastersvisa.com</a></h5>	
-											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">career@domain.com</a></h5>	
-											<p class="grey-color">Drop a Line</p>
+			 			
+							 			<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img mb-30">
+											<img class="img-fluid" src="images/blog/post-5-img.jpg" alt="blog-post-image" />	
 										</div>
 
-									</div>
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
 
+											<!-- Post Meta -->
+											<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 8 min read</p>
+
+											<!-- Title -->
+											<h4 class="h4-xs">
+												<a href="single-post.php" class="darkblue-color">Top reasons for Australian working visa rejection</a>
+											</h4>
+
+											<!-- Text -->
+											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
+											   auctor congue magna tempor sodales sapien libero tempus impedit tempor blandit sapien gravida...
+											</p>
+
+											<!-- Post Data -->
+											<p class="post-data">By <a href="#">Ben Markton</a> - Dec 02, 2019</p>	
+
+										</div>
+
+
+									</div>	<!-- END BLOG POST #2 -->
+
+
+									<!-- BLOG POST #3 -->
+									<div class="blog-post">
+
+					 			
+							 			<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img blog-video text-center mb-30">
+
+							 				<!-- Preview Image -->		
+											<img class="img-fluid" src="images/blog/post-6-img.jpg" alt="blog-post-image" />	
+
+											<!-- Change the link HERE!!! -->	
+											<div class="video-preview icon-lg white-color">
+												<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+													<span class="flaticon-159-play-button"></span>											
+												</a>
+											</div>
+										</div>
+
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Meta -->
+											<p class="post-meta"><a href="#" class="grey-color">Working Visa</a> - 6 hours read</p>
+
+											<!-- Post Title -->
+											<h4 class="h4-xs">
+												<a href="single-post.php" class="darkblue-color">Canada Federal Skilled Worker Program</a>
+											</h4>
+
+											<!-- Text -->
+											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
+											   auctor congue magna tempor sodales sapien donec ipsum, at porta justo purus ipsum neque...
+											</p>
+
+											<!-- Post Data -->
+											<p class="post-data">By <a href="#">Caroline</a> - Nov 26, 2019</p>	
+
+										</div>
+
+
+									</div>	<!-- END BLOG POST #3 -->
+
+
+									<!-- BLOG POST #4 -->
+									<div class="blog-post">
+
+					 			
+							 			<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img mb-30">
+											<img class="img-fluid" src="images/blog/post-7-img.jpg" alt="blog-post-image" />	
+										</div>
+
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Meta -->
+											<p class="post-meta"><a href="#" class="grey-color">PR Visa</a> - 4 hours read</p>
+
+											<!-- Post Title -->
+											<h4 class="h4-xs">
+												<a href="single-post.php" class="darkblue-color">The United Kingdom Immigration & Permanent Residency Consultants</a>
+											</h4>
+
+											<!-- Text -->
+											<p >Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
+											   auctor congue magna tempor sodales sapien dolor primis libero tempus, tempor posuere ligula...
+											</p>
+
+											<!-- Post Data -->
+											<p class="post-data">By <a href="#">Caroline</a> - Nov 17, 2019</p>	
+
+										</div>
+
+
+									</div>	<!-- END BLOG POST #4 -->
+
+									
+									<!-- BLOG PAGE PAGINATION -->
+									<div class="blog-page-pagination">
+										<nav aria-label="Page navigation">
+											<ul class="pagination justify-content-center primary-pagination">
+		    									<li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-long-arrow-alt-left"></i></a></li>
+											    <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+											    <li class="page-item"><a class="page-link" href="#">2</a> </li>
+											    <li class="page-item"><a class="page-link" href="#">3</a></li>
+											    <li class="page-item next-page"><a class="page-link" href="#"><i class="fas fa-long-arrow-alt-right"></i></a></li>
+		 									</ul>	
+		 								</nav>					
+									</div>
+									
 
 								</div>
-							</div>
+							</div>	<!-- END BLOG POSTS HOLDER -->
 
 
-							<!-- CONTACT FORM -->	
-					 		<div class="col-lg-7">
-					 			<div class="form-holder">
-					 				<form name="contactForm" class="row contact-form">
-
-					 					<!-- Contact Form Input -->
-						                <div id="input-name" class="col-lg-12">
-						                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
-						                </div>
-						                 
-						                <!-- Contact Form Input -->        
-						                <div id="input-email" class="col-lg-12">
-						                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
-						                </div>	
-
-						                <!-- Contact Form Select -->
-						                <div id="input-subject" class="col-lg-12 input-subject">
-						                    <select id="inlineFormCustomSelect2" name="subject" class="custom-select subject" required>
-						                        <option value="">Your Question About..</option>  
-						                      	<option>Student Visa</option>
-						                      	<option>Travel visa</option>
-						                      	<option>Working Visa</option>
-						                      	<option>Business Visa</option>
-						                      	<option>Visitor Visa</option>
-						                      	<option>Other...</option>
-						                    </select>
-						                </div>			                          
-						                 
-						                 <!-- Contact Form Mesaage -->        
-						                <div id="input-message" class="col-lg-12 input-message">
-						                	<textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required></textarea>
-						                </div> 
-						                                            
-						                <!-- Contact Form Button -->
-						                <div class="col-lg-12 mt-15 form-btn"> 
-						                	<button type="submit" class="btn btn-primary tra-black-hover submit">Send Your Message</button> 
-						                </div>
-						                                                              
-						                <!-- Contact Form Message -->
-						                <div class="col-lg-12 contact-form-msg text-center">
-						                	<div class="sending-msg"><span class="loading"></span></div>
-						                </div>				                                           
-					                                              
-					                </form> 
-					 			</div>	
-					 		</div>	 <!-- END CONTACT FORM -->	 	
+							<!-- SIDEBAR -->
+							<aside id="sidebar" class="col-lg-4">
 
 
-					 	</div>    <!-- End row -->
-					</div>	   <!-- End container -->
-				</section>	<!-- END CONTACTS-4 -->
+								<!-- SEARCH FIELD --> 
+								<div id="search-field" class="sidebar-div mb-50">								
+									<div class="input-group mb-3">
+									  	<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-field">
+									 	<div class="input-group-append">
+									    	<button class="btn" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+									 	</div>
+									</div>
+								</div>
+
+
+								<!-- BLOG CATEGORIES --> 
+								<div class="blog-categories sidebar-div mb-50">
+										
+									<!-- Title -->
+									<h5 class="h5-lg">Categories</h5>
+
+									<!-- List -->
+									<ul class="blog-category-list clearfix">
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Education Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Skilled Woker Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Work Permit Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> PR and Migrate Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Business Visa</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Spouse/Family Visas</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Tourist & Visitor Visas</a></li>
+										<li><a href="visa-details.php" class="txt-400"><i class="fas fa-angle-double-right primary-color"></i> Working Holiday Visas</a></li>
+									</ul>
+
+								</div>
+
+
+								<!-- LATEST POSTS -->
+								<div class="popular-posts sidebar-div mb-50">
+										
+									<!-- Title -->
+									<h5 class="h5-lg">Latest Posts</h5>
+
+									<ul class="latest-posts">
+									
+										<!-- Latest Post #1 -->
+										<li class="clearfix">
+
+											<!-- Date -->	
+											<p class="p-sm lp-date">18 hours ago - <span class="txt-400">Immigration Visa</span></p>
+
+											<!-- Link -->
+											<h5 class="h5-sm">
+												<a href="single-post.php">Ways to move to Denmark</a>
+											</h5>
+
+											<!-- Text -->	
+											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p> 
+
+										</li>
+										
+										<!-- Latest Post #2 -->
+										<li class="clearfix">
+
+											<!-- Date -->	
+											<p class="p-sm lp-date">Dec 02, 2019 - <span class="txt-400">Working Visa</span></p>
+
+											<!-- Link -->
+											<h5 class="h5-sm0">
+												<a href="single-post.php">Schengen Countries to begin New Visa Sticker from 21st December</a>
+											</h5>
+
+											<!-- Text -->	
+											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p>
+
+										</li>
+										
+										<!-- Latest Post #3 -->
+										<li class="clearfix">
+
+											<!-- Date -->	
+											<p class="p-sm lp-date">Nov 26, 2019 - <span class="txt-400">Travel Visa</span></p>
+
+											<!-- Link -->
+											<h5 class="h5-sm">
+												<a href="single-post.php">4 Destinations for a Family Holiday in Portugal 2020 </a>
+											</h5>
+
+											<!-- Text -->	
+											<p>Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat felis...</p>
+
+										</li>
+									</ul>
+
+								</div>
+
+
+								<!-- TAGS CLOUD -->
+								<div class="tags-cloud sidebar-div mb-50">
+										
+									<!-- Title -->
+									<h5 class="h5-lg">Tags Cloud</h5>
+
+									<span class="badge"><a href="#">Consultations</a></span> 	
+									<span class="badge"><a href="#">Education</a></span>
+									<span class="badge"><a href="#">Embassy</a></span> 	
+									<span class="badge"><a href="#">Immigration</a></span>  	
+									<span class="badge"><a href="#">Travelling</a></span> 
+									<span class="badge"><a href="#">Travel Tips</a></span> 										
+									<span class="badge"><a href="#">Tourism</a></span> 
+									<span class="badge"><a href="#">Visa</a></span>									  								
+								</div>
+
+
+								<!-- SIDEBAR COUNTRIES --> 
+								<div class="sidebar-countries sidebar-div mb-50">
+										
+									<!-- Title -->
+									<h5 class="h5-lg">Countries: </h5>
+
+									<!-- List -->
+									<ul class="sidebar-country-list clearfix">
+
+										<li><a href="country-detail.php">
+											<img class="img-fluid" src="images/sidebar-canada.jpg" alt="sidebar-image" />Canada</a>
+										</li>
+
+										<li><a href="country-detail.php">
+											<img class="img-fluid" src="images/sidebar-uk.jpg" alt="sidebar-image" />United Kingdom</a>
+										</li>
+
+										<li><a href="country-detail.php">
+											<img class="img-fluid" src="images/sidebar-usa.jpg" alt="sidebar-image" />United States of America</a>
+										</li>
+
+									</ul>
+
+								</div>
+							
+
+							</aside>	<!-- END SIDEBAR -->
+
+
+						</div>    <!-- End row -->
+					</div>     <!-- End container -->
+				</section>	<!-- END BLOG PAGE CONTENT -->
 
 
 
@@ -608,13 +792,13 @@
 
 									<!-- Footer Links -->
 									<ul class="foo-links clearfix">
-										<li><a href="visa-details.html">Visitor Visas</a></li>
-										<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-										<li><a href="visa-details.html">Business Visas</a></li>
-										<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-										<li><a href="visa-details.html">Studying & Training Visas</a></li>
-										<li><a href="visa-details.html">Skilled Work Visas</a></li>
-										<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+										<li><a href="visa-details.php">Visitor Visas</a></li>
+										<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+										<li><a href="visa-details.php">Business Visas</a></li>
+										<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+										<li><a href="visa-details.php">Studying & Training Visas</a></li>
+										<li><a href="visa-details.php">Skilled Work Visas</a></li>
+										<li><a href="visa-details.php">Family & Partner Visas</a></li>							
 									</ul>
 
 								</div>
@@ -711,12 +895,6 @@
 			<script src="js/html5shiv.js" type="text/javascript"></script>
 			<script src="js/respond.min.js" type="text/javascript"></script>
 		<![endif] -->
-
-		<!-- Google Map -->
-	    <script src="js/google-map.js"></script>
-
-		<!-- To use this code on your website, get a free API key from Google. Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUQmwdDWm3cQXhPqIO9TsKHq7hrvh2XrU&callback=initMap" async defer></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->	
 		<!--

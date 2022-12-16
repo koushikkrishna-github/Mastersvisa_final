@@ -1,6 +1,4 @@
-<?php
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -58,7 +56,7 @@
 	    <!-- <link href="css/salmon.css" rel="stylesheet">  --> 
 	    <!-- <link href="css/teal.css" rel="stylesheet">    -->
 	    <!-- <link href="css/yellow.css" rel="stylesheet">  -->
-
+		
 		<!-- RESPONSIVE CSS -->
 		<link href="css/responsive.css" rel="stylesheet"> 
 	
@@ -131,8 +129,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -141,7 +139,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -150,7 +148,6 @@
 										<li aria-haspopup="true"><a href="#">Dummy Link #5</a></li>
 									</ul> -->
 								</li> <!-- END DROPDOWN MENU -->
-
 					          	
 						          	<!-- PAGES -->
 						          	<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
@@ -161,31 +158,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -304,7 +301,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -336,8 +333,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item active" aria-current="page">Our Partners & Colleges</li>
 								  	</ol>
 								</nav>
 							</div>
@@ -348,18 +345,18 @@
 
 
 
-				<!-- CONTACTS-4
-				============================================= -->
-				<section id="contacts-4" class="bg-lightgrey wide-80 contacts-section division">
-					<div class="container">
+				<!-- BRANDS-3
+				============================================= -->				
+				<section id="brands-3" class="wide-80 brands-section division">
+					<div class="container">	
 
 
 						<!-- SECTION TITLE -->
 						<div class="row">	
-							<div class="col-md-12 section-title center">		
+							<div class="col-md-12 section-title center">			
 
 				 				<!-- Title -->
-								<h2 class="h2-xs">Have Questions? Get in Touch</h2>
+								<h2 class="h2-xs">Partner Institutes & Universities</h2>
 
 								<!-- Text -->	
 								<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
@@ -370,138 +367,292 @@
 						</div>	 <!-- END SECTION TITLE -->	
 
 
-					 	<div class="row">
+						<!-- BRANDS FILTERING BUTTONS -->
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<div class="brands-filter mb-50">
+				                    <button data-filter="*" class="is-checked"> All Countries</button>
+				                    <button data-filter=".canada">Canada</button>
+				                    <button data-filter=".australia">Australia</button>
+				                    <button data-filter=".usa">USA</button>
+				                    <button data-filter=".uk">United Kingdom</button>
+				                    <button data-filter=".new-zealand">New Zealand</button>
+				                    <button data-filter=".china">China</button>
+				                    <button class="last-button" data-filter=".south-korea">South Korea</button>
+				                </div>
+							</div>
+						</div>
 
 
-					 		<div class="col-lg-5">
-					 			<div class="contact-boxes">
+						<!-- BRANDS HOLDER -->
+						<div class="row">	
+							<div class="col-md-12 brands-list">
+								<div class="masonry-wrap grid-loaded hover-primary">
 
-
-						 			<!-- LOCATION -->
-									<div class="contact-box icon-xs clearfix mb-25">
-
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-240-placeholder"></span></div>
-
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-sm deepblue-color">4th lane, Opp LVR club, Lakshmipuram</h5>
-											<h5 class="h5-xs deepblue-color">Guntur, 522007, INDIA</h5>												
-											<p class="grey-color">Our Location</p>
+									<!-- BRAND #1 -->
+								  	<div class="brand-3 canada">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
 										</div>
+								  	</div>
 
-									</div>
-
-
-									<!-- PHONES -->
-									<div class="contact-box icon-xs clearfix mb-25">
-
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-172-telephone-1"></span></div>
-
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-sm deepblue-color">P: +12 3 3456 7890</h5>	
-											<h5 class="h5-xs deepblue-color">F: +12 3 0987 6543</h5>	
-											<p class="grey-color">Let's Talk</p>
+								  	<!-- BRAND #2 -->
+								  	<div class="brand-3 canada">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
 										</div>
+								  	</div>
 
-									</div>
-
-
-									<!-- EMAIL -->
-									<div class="contact-box icon-xs clearfix">
-
-										<!-- Icon -->	
-										<div class="contact-box-icon"><span class="flaticon-235-mail"></span></div>
-
-										<!-- Text -->
-										<div class="contact-box-txt">
-											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">info@mastersvisa.com</a></h5>	
-											<h5 class="h5-xs deepblue-color"><a href="mailto:info@mastersvisa.com">career@domain.com</a></h5>	
-											<p class="grey-color">Drop a Line</p>
+								  	<!-- BRAND #3 -->
+								  	<div class="brand-3 canada">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
 										</div>
+								  	</div>
 
-									</div>
+								  	<!-- BRAND #4 -->
+								  	<div class="brand-3 canada">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
 
+								  	<!-- BRAND #5 -->
+								  	<div class="brand-3 canada">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #6 -->
+								  	<div class="brand-3 australia">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #7 -->
+								  	<div class="brand-3 australia">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #8 -->
+								  	<div class="brand-3 australia">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #9 -->
+								  	<div class="brand-3 usa">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #10 -->
+								  	<div class="brand-3 usa">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #11 -->
+								  	<div class="brand-3 usa">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #12 -->
+								  	<div class="brand-3 uk">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #13 -->
+								  	<div class="brand-3 uk">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #14 -->
+								  	<div class="brand-3 uk">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #15 -->
+								  	<div class="brand-3 uk">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #16 -->
+								  	<div class="brand-3 uk">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #17 -->
+								  	<div class="brand-3 new-zealand">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-1.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #18 -->
+								  	<div class="brand-3 new-zealand">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #19 -->
+								  	<div class="brand-3 new-zealand">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-3.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #20 -->
+								  	<div class="brand-3 china">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-4.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #21 -->
+								  	<div class="brand-3 china">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-5.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #22 -->
+								  	<div class="brand-3 china">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-6.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #23 -->
+								  	<div class="brand-3 south-korea">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #24 -->
+								  	<div class="brand-3 south-korea">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-2.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
+
+								  	<!-- BRAND #25 -->
+								  	<div class="brand-3 south-korea">
+								  		<div class="brand-logo">
+											<a href="#"><img class="img-fluid" src="images/brand-7.png" alt="brand-logo" /></a>
+											<p class="p-sm">Enter University Name Here</p>
+										</div>
+								  	</div>
 
 								</div>
 							</div>
+						</div>	<!-- END BRANDS HOLDER -->
 
 
-							<!-- CONTACT FORM -->	
-					 		<div class="col-lg-7">
-					 			<div class="form-holder">
-					 				<form name="contactForm" class="row contact-form">
-
-					 					<!-- Contact Form Input -->
-						                <div id="input-name" class="col-lg-12">
-						                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
-						                </div>
-						                 
-						                <!-- Contact Form Input -->        
-						                <div id="input-email" class="col-lg-12">
-						                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
-						                </div>	
-
-						                <!-- Contact Form Select -->
-						                <div id="input-subject" class="col-lg-12 input-subject">
-						                    <select id="inlineFormCustomSelect2" name="subject" class="custom-select subject" required>
-						                        <option value="">Your Question About..</option>  
-						                      	<option>Student Visa</option>
-						                      	<option>Travel visa</option>
-						                      	<option>Working Visa</option>
-						                      	<option>Business Visa</option>
-						                      	<option>Visitor Visa</option>
-						                      	<option>Other...</option>
-						                    </select>
-						                </div>			                          
-						                 
-						                 <!-- Contact Form Mesaage -->        
-						                <div id="input-message" class="col-lg-12 input-message">
-						                	<textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required></textarea>
-						                </div> 
-						                                            
-						                <!-- Contact Form Button -->
-						                <div class="col-lg-12 mt-15 form-btn"> 
-						                	<button type="submit" class="btn btn-primary tra-black-hover submit">Send Your Message</button> 
-						                </div>
-						                                                              
-						                <!-- Contact Form Message -->
-						                <div class="col-lg-12 contact-form-msg text-center">
-						                	<div class="sending-msg"><span class="loading"></span></div>
-						                </div>				                                           
-					                                              
-					                </form> 
-					 			</div>	
-					 		</div>	 <!-- END CONTACT FORM -->	 	
-
-
-					 	</div>    <!-- End row -->
-					</div>	   <!-- End container -->
-				</section>	<!-- END CONTACTS-4 -->
+					</div>     <!-- End container -->
+				</section>	<!-- END BRANDS-3 -->
 
 
 
 
-				<!-- GOOGLE MAP
+				<!-- ABOUT-6
 				============================================= -->
-				<div class="map bg-lightgrey division">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div id="gmap" class="gmap"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<section id="about-6" class="bg-scroll pt-100 about-section division">
+					<div class="container white-color">
+						<div class="row d-flex align-items-center">
+
+
+							<!-- ABOUT IMAGE -->
+				 			<div class="col-lg-6">
+				 				<div class="about-6-img text-center">
+									<img class="img-fluid" src="images/image-08.png" alt="about-image" />
+								</div>
+				 			</div>
+
+						
+							<!-- ABOUT TEXT -->
+							<div class="col-lg-6">
+								<div class="about-6-txt pc-20">
+
+									<!-- Title -->
+									<h2 class="h2-xs">Looking for Quality Abroad Education?</h2>
+
+									<!-- Text -->
+									<p class="p-md">Fringilla risus luctus mauris auctor purus euismod pretium purus at pretium
+									   ligula rutrum viverra tortor sapien sodales quaerat sodales sapien blandit dolores and aliquam
+									</p>		
+
+									<!-- Small Title -->
+									<h5 class="h5-lg">350+ Universities in 17 Countries:</h5>		
+
+									<!-- Flags list -->
+									<ul class="flags-list">
+										<li><a href="country-details.php"><img src="images/flags/canada.png" alt="flag"/><span>Canada</span></a></li>
+										<li><a href="country-details.php"><img src="images/flags/australia.png" alt="flag"/><span>Australia</span></a></li>
+										<li><a href="country-details.php"><img src="images/flags/usa.png" alt="flag"/><span>USA</span></a></li>	
+										<li><a href="country-details.php"><img src="images/flags/united-kingdom.png" alt="flag"/><span>UK</span></a></li>	
+										<li><a href="country-details.php"><img src="images/flags/eu.png" alt="flag"/><span>Europe</span></a></li>	
+									</ul>	
+
+								</div>							
+							</div> <!-- END ABOUT TEXT -->
+
+
+						</div>    <!-- End row -->
+					</div>     <!-- End container -->
+				</section>	<!-- END ABOUT-6 -->
 
 
 
 
-				<!-- FOOTER-3
+				<!-- FOOTER-2
 				============================================= -->
-				<footer id="footer-3" class="bg-lightgrey wide-40 footer division">
+				<footer id="footer-2" class="wide-40 footer division">
 					<div class="container">
 
 
@@ -509,8 +660,25 @@
 						<div class="row">	
 
 
+							<!-- FOOTER INFO -->
+							<div class="col-xl-3">
+								<div class="footer-info mb-40">
+
+									<!-- Footer Logo -->
+									<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 420 x 100 pixels) -->
+									<img src="images/brand/logo.png" width="210" height="50" alt="footer-logo">
+
+									<!-- Text -->	
+									<p class="p-sm mt-25">Aliquam orci a nullam tempor undo sapien donec gravida an enim ipsum porta
+									   justo velna auctor and congue magna laoreet an augue sapien
+									</p>
+
+								</div>	
+							</div>
+
+
 							<!-- FOOTER CONTACTS -->
-							<div class="col-lg-3 col-xl-3">
+							<div class="col-lg-4 col-xl-3">
 								<div class="footer-box mb-40">
 								
 									<!-- Title -->
@@ -536,7 +704,7 @@
 
 
 							<!-- FOOTER LINKS -->
-							<div class="col-lg-3 col-xl-3">
+							<div class="col-lg-4 col-xl-3">
 								<div class="footer-links mb-40">
 								
 									<!-- Title -->
@@ -558,7 +726,7 @@
 
 
 							<!-- FOOTER LINKS -->
-							<div class="col-lg-3 col-xl-3">
+							<div class="col-lg-4 col-xl-3">
 								<div class="footer-links mb-40">
 								
 									<!-- Title -->
@@ -566,42 +734,17 @@
 
 									<!-- Footer Links -->
 									<ul class="foo-links clearfix">
-										<li><a href="visa-details.html">Visitor Visas</a></li>
-										<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-										<li><a href="visa-details.html">Business Visas</a></li>
-										<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-										<li><a href="visa-details.html">Studying & Training Visas</a></li>
-										<li><a href="visa-details.html">Skilled Work Visas</a></li>
-										<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+										<li><a href="visa-details.php">Visitor Visas</a></li>
+										<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+										<li><a href="visa-details.php">Business Visas</a></li>
+										<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+										<li><a href="visa-details.php">Studying & Training Visas</a></li>
+										<li><a href="visa-details.php">Skilled Work Visas</a></li>
+										<li><a href="visa-details.php">Family & Partner Visas</a></li>							
 									</ul>
+
 								</div>
 							</div>	
-
-
-							<!-- FOOTER NEWSLETTER FORM -->
-							<div class="col-lg-3 col-xl-3">
-								<div class="footer-form mb-20">
-
-									<!-- Title -->
-									<h5 class="h5-md">Stay Always In Touch</h5>
-
-									<!-- Newsletter Form Input -->
-									<form class="newsletter-form">	
-
-										<div class="input-group">
-											<input type="email" class="form-control" placeholder="Your email address" required id="s-email">			
-											<span class="input-group-btn">
-												<button type="submit" class="btn btn-primary tra-black-hover">Subscribe</button> 
-											</span>
-										</div>
-
-										<!-- Newsletter Form Notification -->		
-										<label for="s-email" class="form-notification"></label>
-													
-									</form>
-															
-								</div>
-							</div>
 
 
 						</div>	<!-- END FOOTER CONTENT -->
@@ -612,20 +755,34 @@
 							<div class="row d-flex align-items-center">
 
 
-								<!-- FOOTER LOGO -->
-								<div class="col-md-4 col-lg-3">
-									<!-- Footer Logo -->
-									<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 420 x 100 pixels) -->
-									<img src="images/brand/logo.png" width="210" height="50" alt="footer-logo">
+								<!-- FOOTER COPYRIGHT -->
+								<div class="col-lg-6">
+									<p class="footer-copyright">&copy; Copyright <span>Masters Visa 2019</span>. All Rights Reserved</p>
 								</div>
 
 
 								<!-- FOOTER SOCIALS LINKS -->
-								<div class="col-md-8 col-lg-9 text-right">
-									<p class="footer-copyright">&copy; Copyright <span>Masters Visa 2019</span>. All Rights Reserved</p>
-									<p class="p-sm"><a href="#">Privacy Policy</a></p>
-									<p class="p-sm"><a href="#">Terms & Conditions</a></p>
-									<p class="p-sm"><a href="#">Cookies</a></p>
+								<div class="col-lg-6 text-right">
+									<ul class="foo-socials text-center clearfix">
+
+										<li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>	
+										<li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+										<li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>			
+																																				
+										<!--
+										<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
+										<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
+										<li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>	
+										<li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+										<li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>								
+										<li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>										
+										<li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
+										<li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
+										<li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
+									    -->	
+
+									</ul>
 								</div>
 
 
@@ -634,7 +791,7 @@
 
 
 					</div>	   <!-- End container -->										
-				</footer>	<!-- END FOOTER-3 -->
+				</footer>	<!-- END FOOTER-2 -->
 
 
 
@@ -680,12 +837,6 @@
 			<script src="js/html5shiv.js" type="text/javascript"></script>
 			<script src="js/respond.min.js" type="text/javascript"></script>
 		<![endif] -->
-
-		<!-- Google Map -->
-	    <script src="js/google-map.js"></script>
-
-		<!-- To use this code on your website, get a free API key from Google. Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp -->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUQmwdDWm3cQXhPqIO9TsKHq7hrvh2XrU&callback=initMap" async defer></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->	
 		<!--

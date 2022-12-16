@@ -7,7 +7,7 @@
   var version = '3.7.2';
 
   /** Preset options */
-  var options = window.html5 || {};
+  var options = window.php5 || {};
 
   /** Used to skip problem elements */
   var reSkip = /^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i;
@@ -314,7 +314,7 @@
   /*--------------------------------------------------------------------------*/
 
   // expose html5
-  window.html5 = html5;
+  window.php5 = html5;
 
   // shiv the document
   shivDocument(document);

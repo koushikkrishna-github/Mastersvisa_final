@@ -129,8 +129,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="index.html" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="index.html" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-black"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="index.php" class="logo-white"><img src="images/brand/logo.png" width="250" height="60" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -139,7 +139,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -159,31 +159,31 @@
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Standard Pages:</li>
-									                    <li><a href="about.html">About Us Page</a></li>
-									                    <li><a href="courses-list.html">Courses List Page</a></li>
-									                    <li><a href="course-details.html">Course Details Page</a></li>
-									                    <li><a href="partners.html">Partners & Colleges</a></li> 									 
-									                    <li><a href="faqs.html">FAQs Page</a></li>                   
+									                    <li><a href="about.php">About Us Page</a></li>
+									                    <li><a href="courses-list.php">Courses List Page</a></li>
+									                    <li><a href="course-details.php">Course Details Page</a></li>
+									                    <li><a href="partners.php">Partners & Colleges</a></li> 									 
+									                    <li><a href="faqs.php">FAQs Page</a></li>                   
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Special Pages:</li>	
-									                    <li><a href="country-details.html">Countries List Page</a></li>
-									                    <li><a href="country-details.html">Country Details Page</a></li>				          
-									                    <li><a href="visa-list-1.html">Visa List Page #1</a></li>
-									                    <li><a href="visa-list-2.html">Visa List Page #2</a></li>
-									                    <li><a href="visa-details.html">Visa Details Page</a></li>
+									                    <li><a href="country-details.php">Countries List Page</a></li>
+									                    <li><a href="country-details.php">Country Details Page</a></li>				          
+									                    <li><a href="visa-list-1.php">Visa List Page #1</a></li>
+									                    <li><a href="visa-list-2.php">Visa List Page #2</a></li>
+									                    <li><a href="visa-details.php">Visa Details Page</a></li>
 									                </ul>
 
 									                <!-- MEGAMENU LINKS -->
 	               									<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 									                    <li class="title">Auxiliary Pages:</li>
-									                    <li><a href="blog-listing.html">Blog Listing Page</a></li>
-									                    <li><a href="single-post.html">Single Blog Post</a></li>								        
-									                    <li><a href="contacts-1.html">Contact Style #1</a></li>
-									                    <li><a href="contacts-2.html">Contact Style #2</a></li> 
-									                    <li><a href="contacts-3.html">Contact Style #3</a></li> 						
+									                    <li><a href="blog-listing.php">Blog Listing Page</a></li>
+									                    <li><a href="single-post.php">Single Blog Post</a></li>								        
+									                    <li><a href="contacts-1.php">Contact Style #1</a></li>
+									                    <li><a href="contacts-2.php">Contact Style #2</a></li> 
+									                    <li><a href="contacts-3.php">Contact Style #3</a></li> 						
 									                </ul>
 									                
 								                </div>  <!-- End row -->	
@@ -302,7 +302,7 @@
 					    
 								    <!-- LAST NAVIGATION LINK -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="contacts-1.html" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+								    	<a href="contacts-1.php" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								    </li>
 								    
 
@@ -334,8 +334,8 @@
 							<div class="col">
 								<nav aria-label="breadcrumb">
 								  	<ol class="breadcrumb white-color">
-								    	<li class="breadcrumb-item"><a href="index.html">&#91; Home &#93;</a></li>
-								    	<li class="breadcrumb-item active" aria-current="page">Country List</li>
+								    	<li class="breadcrumb-item"><a href="index.php">&#91; Home &#93;</a></li>
+								    	<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
 								  	</ol>
 								</nav>
 							</div>
@@ -346,10 +346,75 @@
 
 
 
-				<!-- COUNTRIES-1
+				<!-- GOOGLE MAP
 				============================================= -->
-				<section id="countries-1" class="wide-40 countries-section division">
-					<div class="container">	
+				<div id="gmap" class="gmap"></div>
+
+
+
+
+				<!-- CONTACTS-1
+				============================================= -->
+				<section id="contacts-1" class="wide-60 contacts-section division">
+					<div class="container">
+					 	<div class="row">
+
+
+					 		<!-- LOCATION -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="contact-box icon-xs">
+									<div class="contact-box-icon"><span class="flaticon-240-placeholder"></span></div>
+									<h5 class="h5-sm deepblue-color">Our Location</h5>														
+									<p class="grey-color">121 King Street, Melbourne,</p>
+									<p class="grey-color">Victoria 3000 Australia</p>
+								</div>
+							</div>
+
+
+							<!-- PHONES -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="contact-box icon-xs">
+									<div class="contact-box-icon"><span class="flaticon-172-telephone-1"></span></div>
+									<h5 class="h5-sm deepblue-color">Let's Talk</h5>	
+									<p class="grey-color">Phone : +12 3 3456 7890</p>
+									<p class="grey-color">Fax : +12 9 8765 4321</p>
+								</div>
+							</div>
+
+
+							<!-- EMAIL -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="contact-box icon-xs">
+									<div class="contact-box-icon"><span class="flaticon-235-mail"></span></div>
+									<h5 class="h5-sm deepblue-color">Drop a Line</h5>	
+									<p class="grey-color"><a href="mailto:info@mastersvisa.com">info@mastersvisa.com</a></p>
+									<p class="grey-color"><a href="mailto:career@mail.com">career@domain.com</a></p>
+								</div>
+							</div>
+
+
+							<!-- WORKING HOURS -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="contact-box icon-xs">
+									<div class="contact-box-icon"><span class="flaticon-358-wall-clock-1"></span></div>
+									<h5 class="h5-sm deepblue-color">Working Hours</h5>	
+									<p class="grey-color">Mon - Fri: 8:30am - 7:30pm</p>
+									<p class="grey-color">Sat: 8:30am - 3:30pm</p>
+								</div>
+							</div>
+
+
+					 	</div>	  <!-- End row -->
+					</div>	   <!-- End container -->	
+				</section>	<!-- END CONTACTS-1 -->
+
+
+
+
+				<!-- CONTACTS-3
+				============================================= -->
+				<section id="contacts-3" class="bg-lightgrey bg-tra-city wide-80 contacts-section division">
+					<div class="container">
 
 
 						<!-- SECTION TITLE -->
@@ -357,393 +422,69 @@
 							<div class="col-md-12 section-title center">		
 
 				 				<!-- Title -->
-								<h2 class="h2-xs">Immigration Opportunities</h2>
+								<h2 class="h2-xs">Have Questions? Get in Touch</h2>
 
 								<!-- Text -->	
 								<p class="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor feugiat, 
 								   felis lacinia risus interdum auctor id viverra dolor iaculis luctus placerat and massa
-								</p> 
+								</p>
 
 							</div>
 						</div>	 <!-- END SECTION TITLE -->	
 
 
-						<div class="row">
+						<!-- CONTACT FORM -->	
+					 	<div class="row">
+					 		<div class="col-lg-10 offset-lg-1">
+					 			<div class="form-holder">
+					 				<form name="contactForm" class="row contact-form">
+					                                            
+						                <!-- Contact Form Input -->
+						                <div id="input-name" class="col-lg-6">
+						                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
+						                </div>
+						                 
+						                <!-- Contact Form Input -->        
+						                <div id="input-email" class="col-lg-6">
+						                	<input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
+						                </div>	
+
+						                <!-- Contact Form Select -->
+						                <div id="input-subject" class="col-lg-12 input-subject">
+						                    <select id="inlineFormCustomSelect2" name="subject" class="custom-select subject" required>
+						                        <option value="">Your Question About..</option>  
+						                      	<option>Student Visa</option>
+						                      	<option>Travel visa</option>
+						                      	<option>Working Visa</option>
+						                      	<option>Business Visa</option>
+						                      	<option>Visitor Visa</option>
+						                      	<option>Other...</option>
+						                    </select>
+						                </div>			                          
+						                 
+						                 <!-- Contact Form Mesaage -->        
+						                <div id="input-message" class="col-lg-12 input-message">
+						                	<textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..." required></textarea>
+						                </div> 
+						                                            
+						                <!-- Contact Form Button -->
+						                <div class="col-lg-12 mt-15 form-btn text-right"> 
+						                	<button type="submit" class="btn btn-primary tra-black-hover submit">Send Your Message</button> 
+						                </div>
+						                                                              
+						                <!-- Contact Form Message -->
+						                <div class="col-lg-12 contact-form-msg text-center">
+						                	<div class="sending-msg"><span class="loading"></span></div>
+						                </div>  
+					                                              
+					                </form> 
+					 			</div>	
+					 		</div>	
+					 	</div>  <!-- END CONTACT FORM -->	
 
 
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/canada.png" alt="flag-icon"/>
-										<h5 class="h5-lg">Canada</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Canada dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Canadian efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Canada dolor primis and sapien <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/australia.png" alt="flag-icon"/>
-										<h5 class="h5-lg">Australia</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum at purus primis ligula purus efficitur ipsum in cubilia
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Australian at ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Australia efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/united-kingdom.png" alt="flag-icon"/>
-										<h5 class="h5-lg">United Kingdom</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">UK dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">UK efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/new-zealand.png" alt="flag-icon"/>
-										<h5 class="h5-lg">New Zealand</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum at purus primis ligula purus efficitur ipsum in cubilia
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">New Zealand dolor at sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">New Zealand efficitur ipsum primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/singapore.png" alt="flag-icon"/>
-										<h5 class="h5-lg">Singapore</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Singapore augue erat sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Singapore efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Singapore E1 primis sapien <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/usa.png" alt="flag-icon"/>
-										<h5 class="h5-lg">USA</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum at purus primis ligula purus efficitur ipsum in cubilia
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">US dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">US efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/ireland.png" alt="flag-icon"/>
-										<h5 class="h5-lg">Ireland</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Ireland dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Ireland efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Ireland efficitur and sapien <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/south-korea.png" alt="flag-icon"/>
-										<h5 class="h5-lg">South Korea</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">South Korea ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">South Korea ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag clearfix">
-										<img src="images/flags/china.png" alt="flag-icon"/>
-										<h5 class="h5-lg">China</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">China dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">China efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/slovakia.png" alt="flag-icon"/>
-										<h5 class="h5-lg">Slovakia</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Slovakian dolor primis and sapien <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Slovakian efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">Slovakia ultrice and sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/india.png" alt="flag-icon"/>
-										<h5 class="h5-lg">India</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">Indian dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">India efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">India ultrice and sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-							<!-- COUNTRY BOX -->
-							<div class="col-md-6 col-lg-4 col-xl-3">
-								<div class="cbox-1">
-
-									<!-- Flag -->	
-									<div class="country-flag">
-										<img src="images/flags/france.png" alt="flag-icon"/>
-										<h5 class="h5-lg">France</h5>
-									</div>
-
-									<!-- Text -->
-									<p class="p-sm">An magnis nulla dolor sapien augue erat iaculis purus tempor and magna pretium 
-									   ipsum purus primis ligula
-									</p>
-
-									<!-- Links List -->
-									<ul class="links-list darkblue-color">
-
-										<li><a href="#">France dolor ultrice sapien augue <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="#">France efficitur ipsum at primis cubilia a laoreet iaculis purus <i class="fas fa-caret-right"></i></a></li>
-
-										<li><a href="country-details.html">Read More <i class="fas fa-caret-right"></i></a></li>
-
-									</ul>
-
-								</div>
-							</div>
-
-
-						</div>    <!-- End row -->
 					</div>	   <!-- End container -->
-				</section>	<!-- END COUNTRIES-1 -->
+				</section>	<!-- END CONTACTS-3 -->
 
 
 
@@ -779,6 +520,7 @@
 						</div>	  <!-- End row -->
 					</div>	   <!-- End container -->
 				</section>	<!-- END CALL TO ACTION-4 -->
+
 
 
 
@@ -867,13 +609,13 @@
 
 									<!-- Footer Links -->
 									<ul class="foo-links clearfix">
-										<li><a href="visa-details.html">Visitor Visas</a></li>
-										<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-										<li><a href="visa-details.html">Business Visas</a></li>
-										<li><a href="visa-details.html">Working Holiday Visas</a></li>	
-										<li><a href="visa-details.html">Studying & Training Visas</a></li>
-										<li><a href="visa-details.html">Skilled Work Visas</a></li>
-										<li><a href="visa-details.html">Family & Partner Visas</a></li>							
+										<li><a href="visa-details.php">Visitor Visas</a></li>
+										<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+										<li><a href="visa-details.php">Business Visas</a></li>
+										<li><a href="visa-details.php">Working Holiday Visas</a></li>	
+										<li><a href="visa-details.php">Studying & Training Visas</a></li>
+										<li><a href="visa-details.php">Skilled Work Visas</a></li>
+										<li><a href="visa-details.php">Family & Partner Visas</a></li>							
 									</ul>
 
 								</div>
@@ -970,6 +712,12 @@
 			<script src="js/html5shiv.js" type="text/javascript"></script>
 			<script src="js/respond.min.js" type="text/javascript"></script>
 		<![endif] -->
+
+		<!-- Google Map -->
+	    <script src="js/google-map.js"></script>
+
+		<!-- To use this code on your website, get a free API key from Google. Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUQmwdDWm3cQXhPqIO9TsKHq7hrvh2XrU&callback=initMap" async defer></script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->	
 		<!--

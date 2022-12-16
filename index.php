@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,7 +7,7 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="author" content="koushik" />
+	<meta name="author" content="mastersVisa" />
 	<meta name="description" content="Masters Visa - Immigration and Visa Consulting Website" />
 	<meta name="keywords"
 		content="education visa, work visa, job placement support, loans, Business, Coaching, Consulting, Creative, Immigration, Visa">
@@ -133,9 +134,9 @@
 
 						<!-- LOGO IMAGE -->
 						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-						<div class="desktoplogo"><a href="#hero-9" class="logo-black"><img src="images/brand/logo.png"
+						<div class="desktoplogo"><a href="#" class="logo-black"><img src="images/brand/logo.png"
 									width="250" height="60" alt="header-logo"></a></div>
-						<div class="desktoplogo"><a href="#hero-9" class="logo-white"><img src="images/brand/logo.png"
+						<div class="desktoplogo"><a href="#" class="logo-white"><img src="images/brand/logo.png"
 									width="250" height="60" alt="header-logo"></a></div>
 
 
@@ -145,7 +146,7 @@
 
 
 								<!-- DROPDOWN MENU -->
-								<li><a href="index.html">Home </a>
+								<li><a href="index.php">Home </a>
 									<!-- <ul class="sub-menu">
 										<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
 										<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
@@ -165,31 +166,31 @@
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Standard Pages:</li>
-													<li><a href="about.html">About Us Page</a></li>
-													<li><a href="courses-list.html">Courses List Page</a></li>
-													<li><a href="course-details.html">Course Details Page</a></li>
-													<li><a href="partners.html">Partners & Colleges</a></li>
-													<li><a href="faqs.html">FAQs Page</a></li>
+													<li><a href="about.php">About Us Page</a></li>
+													<li><a href="courses-list.php">Courses List Page</a></li>
+													<li><a href="course-details.php">Course Details Page</a></li>
+													<li><a href="partners.php">Partners & Colleges</a></li>
+													<li><a href="faqs.php">FAQs Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Special Pages:</li>
-													<li><a href="country-details.html">Countries List Page</a></li>
-													<li><a href="country-details.html">Country Details Page</a></li>
-													<li><a href="visa-list-1.html">Visa List Page #1</a></li>
-													<li><a href="visa-list-2.html">Visa List Page #2</a></li>
-													<li><a href="visa-details.html">Visa Details Page</a></li>
+													<li><a href="country-details.php">Countries List Page</a></li>
+													<li><a href="country-details.php">Country Details Page</a></li>
+													<li><a href="visa-list-1.php">Visa List Page #1</a></li>
+													<li><a href="visa-list-2.php">Visa List Page #2</a></li>
+													<li><a href="visa-details.php">Visa Details Page</a></li>
 												</ul>
 
 												<!-- MEGAMENU LINKS -->
 												<ul class="col-lg-4 col-md-12 col-xs-12 link-list">
 													<li class="title">Auxiliary Pages:</li>
-													<li><a href="blog-listing.html">Blog Listing Page</a></li>
-													<li><a href="single-post.html">Single Blog Post</a></li>
-													<li><a href="contacts-1.html">Contact Style #1</a></li>
-													<li><a href="contacts-2.html">Contact Style #2</a></li>
-													<li><a href="contacts-3.html">Contact Style #3</a></li>
+													<li><a href="blog-listing.php">Blog Listing Page</a></li>
+													<li><a href="single-post.php">Single Blog Post</a></li>
+													<li><a href="contacts-1.php">Contact Style #1</a></li>
+													<li><a href="contacts-2.php">Contact Style #2</a></li>
+													<li><a href="contacts-3.php">Contact Style #3</a></li>
 												</ul>
 
 											</div> <!-- End row -->
@@ -260,7 +261,7 @@
 
 								<!-- LAST NAVIGATION LINK -->
 								<li class="nl-simple" aria-haspopup="true">
-									<a href="contacts-1.html"
+									<a href="contacts-1.php"
 										class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
 								</li>
 
@@ -420,7 +421,7 @@
 							</p>
 
 							<!-- Button -->
-							<a href="about.html" class="btn btn-md btn-tra-grey black-hover btn-arrow">
+							<a href="about.php" class="btn btn-md btn-tra-grey black-hover btn-arrow">
 								<span>Discover More <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -489,7 +490,7 @@
 							<p class="p-sm">Unlock your education and career potential with an education visa.</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -505,7 +506,7 @@
 							</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -520,7 +521,7 @@
 							<p class="p-sm">Expert guidance for those seeking skilled immigration opportunities.</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -535,7 +536,7 @@
 							<p class="p-sm">Bring your loved ones along on your journey with a spouse/family visa.</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -551,7 +552,7 @@
 							</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -567,7 +568,7 @@
 								language courses</p>
 
 							<!--Link -->
-							<a href="visa-details.html">Read More <i class="fas fa-caret-right"></i></a>
+							<a href="visa-details.php">Read More <i class="fas fa-caret-right"></i></a>
 
 						</div>
 					</div>
@@ -609,7 +610,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -630,7 +631,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -652,7 +653,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -674,7 +675,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -697,7 +698,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -721,7 +722,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -742,7 +743,7 @@
 					<!-- COUNTRY BOX -->
 					<div class="col-sm-6 col-lg-3">
 						<div class="cbox-3">
-							<a href="country-details.html">
+							<a href="country-details.php">
 
 								<!-- Image -->
 								<div class="hover-overlay">
@@ -1145,7 +1146,7 @@
 							</p>
 
 							<!-- Button -->
-							<a href="contacts-1.html" class="btn btn-md btn-tra-white primary-hover btn-arrow">
+							<a href="contacts-1.php" class="btn btn-md btn-tra-white primary-hover btn-arrow">
 								<span>Discover More <i class="fas fa-arrow-right"></i></span>
 							</a>
 
@@ -1407,7 +1408,7 @@
 				<!-- MORE QUESTIONS BUTTON -->
 				<div class="row">
 					<div class="col-md-12 text-center more-questions">
-						<h5 class="h5-md">Still have a question? <a href="faqs.html" class="darkblue-color">Ask your
+						<h5 class="h5-md">Still have a question? <a href="faqs.php" class="darkblue-color">Ask your
 								question here</a></h5>
 					</div>
 				</div>
@@ -1807,13 +1808,13 @@
 
 							<!-- Footer Links -->
 							<ul class="foo-links clearfix">
-								<li><a href="visa-details.html">Visitor Visas</a></li>
-								<li><a href="visa-details.html">Permanent Residence Visas</a></li>
-								<li><a href="visa-details.html">Business Visas</a></li>
-								<li><a href="visa-details.html">Working Holiday Visas</a></li>
-								<li><a href="visa-details.html">Studying & Training Visas</a></li>
-								<li><a href="visa-details.html">Skilled Work Visas</a></li>
-								<li><a href="visa-details.html">Family & Partner Visas</a></li>
+								<li><a href="visa-details.php">Visitor Visas</a></li>
+								<li><a href="visa-details.php">Permanent Residence Visas</a></li>
+								<li><a href="visa-details.php">Business Visas</a></li>
+								<li><a href="visa-details.php">Working Holiday Visas</a></li>
+								<li><a href="visa-details.php">Studying & Training Visas</a></li>
+								<li><a href="visa-details.php">Skilled Work Visas</a></li>
+								<li><a href="visa-details.php">Family & Partner Visas</a></li>
 							</ul>
 
 						</div>
